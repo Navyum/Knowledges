@@ -121,7 +121,7 @@ export default hopeTheme(
 
       // 在本地运行 `pnpm docs:dev` 并使用非 localhost 域名时，容易出现 403 错误，移除本部分即可解决
       provider: "Waline",
-      serverURL: "https://waline.newzone.top",
+      serverURL: "https://waline.camscanner.top",
       reaction: [
         "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44d.png",
         "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44f.png",
@@ -195,12 +195,12 @@ export default hopeTheme(
       config: {
         // 这会加密整个 encrypt 目录，并且两个密码都是可用的
         "/encrypt/": {
-          password: ["1234", "5678"],
+          password: ["12345678"],
           hint: "从 xxx 获取密码",
         },
         // 这只会加密 /apps/encrypt03.html 页面
         "/apps/encrypt03.html": {
-          password: "1234",
+          password: "12345678",
           hint: "从 xxx 获取密码",
         },
       },
