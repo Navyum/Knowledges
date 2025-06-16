@@ -6,8 +6,7 @@
 
 
 ## Computer Science
-- [💻 计算机网络](计算机网络/README)
-- [🕹️ 操作系统 TODO](/README)
+- [💻 计算机网络](计算机网络/)
 - [⛵️ 算法数据结构](算法数据结构/0.学习路径.md)
 - [📑 编程语言](编程语言/golang/golang学习笔记.md)
 - [📁 常用软件](常用软件/0.学习路径.md)
@@ -20,7 +19,6 @@
 - [🤖 大模型LLM](大模型LLM/00.概念/01.Transformer.md)
 
 ## Job Interview
-- [❌ 问答 TODO](/README)
 - [❌ 编程实战 TODO](/README)
 - [👩 面试经验](面试经验/Ready4Interview.md)
 - [🤔 个人思考](个人思考/职业规划.md)
