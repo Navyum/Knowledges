@@ -1,18 +1,17 @@
 ---
-title: intro
-date: 2025-06-16 19:12:33
+title: 关于我
+date: 2025-06-16 19:51:16
 author: Navyum
 tags: 
- - LLM
-categories: 
- - 笔记
+ - 个人介绍
+article: false
+index: false
+sidebar: false
+headerDepth: 2
+sticky: false
+star: false
 ---
 
----
-article: false
-title: 关于我
-icon: fa6-solid:circle-nodes
----
 
 ## ☀️  关于我
 

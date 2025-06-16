@@ -1,21 +1,14 @@
 ---
-# 文章标题
-title: 本章主要内容
-author: navyum
-date: 2025-06-15
+title: README
+date: 2024-03-02 18:55:31
+author: Navyum
 
-order: -1
-article: true
+article: false
+index: false
+sidebar: false
 headerDepth: 2
-sticky: true
-star: true
-
-category:
-  - 使用指南
-
-tag:
-  - 页面配置
-  - 使用指南
+sticky: false
+star: false
 ---
 
 ## README

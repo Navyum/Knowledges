@@ -81,7 +81,7 @@ export default hopeTheme(
     },
 
     // 隐藏打印按钮
-    // print: false,
+    print: false,
 
     markdown: {
       align: true, // 启用自定义对齐

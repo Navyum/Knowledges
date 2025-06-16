@@ -6,8 +6,8 @@ icon: fa6-solid:house-crack
 title: 互联网爱好者
 #heroImage: /logo.svg
 heroText: 互联网爱好者
-tagline: 盛年不重来，一日难再晨
-bgImage: https://img.newzone.top/home-bg-1.jpg
+tagline: 勇往直前
+bgImage: https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05
 heroFullScreen: false
 #projects:
 #  - icon: project
