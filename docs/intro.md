@@ -1,4 +1,14 @@
 ---
+title: intro
+date: 2025-06-16 19:12:33
+author: Navyum
+tags: 
+ - LLM
+categories: 
+ - 笔记
+---
+
+---
 article: false
 title: 关于我
 icon: fa6-solid:circle-nodes
@@ -35,3 +45,4 @@ icon: fa6-solid:circle-nodes
 
 ## 赞赏:
   <div ><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/d55ddcb88afc284ec63d69543fe87e36.jpeg" width="200" height="200" /></div>
+
