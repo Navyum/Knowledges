@@ -5,10 +5,10 @@ import sidebar from "./sidebar.js";
 export default hopeTheme(
   {
     // 主题选项：https://theme-hope.vuejs.press/zh/config/theme/layout.html
-    hostname: "https://blog.camscanner.top",
+    hostname: "https://myblog.camscanner.top",
     author: {
       name: "Navyum",
-      url: "https://blog.camscanner.top",
+      url: "https://myblog.camscanner.top",
     },
 
     favicon: "/favicon.ico",
@@ -118,7 +118,7 @@ export default hopeTheme(
 
       // 评论配置（仅做样例，记得更换）
       comment: {
-        /*
+
       // 在本地运行 `pnpm docs:dev` 并使用非 localhost 域名时，容易出现 403 错误，移除本部分即可解决
       provider: "Waline",
       serverURL: "https://waline.newzone.top",
@@ -130,7 +130,7 @@ export default hopeTheme(
         "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f635-200d-1f4ab.png",
       ],
       // 部署 Waline：https://waline.js.org/guide/get-started.html
-      // pageview: true, // 浏览量统计
+      pageview: true, // 浏览量统计
       locales: {
         "/": {
           // 表情互动提示文字
@@ -150,14 +150,15 @@ export default hopeTheme(
           level5: "化神",
         },
       },
-      */
 
+      /*
         // Giscus
         provider: "Giscus",
         repo: "rockbenben/giscus-comment",
         repoId: "R_kgDOM_MPJA",
         category: "Comments",
         categoryId: "DIC_kwDOM_MPJM4CjS0P",
+      */
       },
 
       // 组件库
