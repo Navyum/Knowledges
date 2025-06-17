@@ -5,7 +5,7 @@ author: Navyum
 
 article: false
 index: false
-sidebar: false
+
 headerDepth: 2
 sticky: false
 star: false

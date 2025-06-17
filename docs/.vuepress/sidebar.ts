@@ -11,17 +11,15 @@ export default sidebar({
     // 指定显示页面
     {
       text: "计算机网络",
-      icon: "",
+      icon: "icon-park-outline:computer",
       prefix: "/计算机网络/",
-      link: "",
       collapsible: true,
       children: "structure",
     },
     {
       text: "算法数据结构",
-      icon: "",
+      icon: "hugeicons:algorithm",
       prefix: "/算法数据结构/",
-      link: "",
       collapsible: true,
       children: [
         "0.学习路径.md",
@@ -30,14 +28,14 @@ export default sidebar({
         {
           text: "数据结构",
           prefix: "数据结构/",
-          icon: "fa6-brands:windows",
+          icon: "carbon:data-structured",
           collapsible: true,
           children: "structure",
         },
         {
           text: "算法",
           prefix: "算法/",
-          icon: "fa6-brands:windows",
+          icon: "arcticons:algorithms",
           collapsible: true,
           children: "structure",
         },
@@ -45,65 +43,57 @@ export default sidebar({
     },
     {
       text: "编程语言",
-      icon: "",
+      icon: "codicon:code",
       prefix: "/编程语言/",
-      link: "",
       collapsible: true,
       children: "structure",
     },
     {
       text: "常用软件",
-      icon: "",
+      icon: "fluent:apps-32-filled",
       prefix: "/常用软件/",
-      link: "",
       collapsible: true,
       children: "structure",
     },
     {
       text: "架构设计",
-      icon: "",
+      icon: "carbon:microservices-1",
       prefix: "/架构设计/",
-      link: "",
       collapsible: true,
       children: "structure",
     },
     {
       text: "大模型LLM",
-      icon: "",
+      icon: "ri:ai-generate-2",
       prefix: "/大模型LLM/",
-      link: "",
       collapsible: true,
       children: "structure",
     },
     {
       text: "工具武器库",
-      icon: "",
+      icon: "entypo:tools",
       prefix: "/工具武器库/",
-      link: "",
       collapsible: true,
       children: "structure",
     },
     {
       text: "面试经验",
-      icon: "",
+      icon: "fluent:people-chat-24-regular",
       prefix: "/面试经验/",
-      link: "",
       collapsible: true,
       children: "structure",
     },
     {
       text: "个人思考",
-      icon: "",
+      icon: "icon-park-outline:thinking-problem",
       prefix: "/个人思考/",
-      link: "",
       collapsible: true,
       children: "structure",
     },
     {
       text: "我的世界",
-      icon: "",
+      icon: "streamline-plump:world-remix",
       prefix: "/我的世界/",
-      link: "",
       collapsible: true,
       children: "structure",
     },
@@ -115,7 +105,10 @@ export default sidebar({
       collapsible: true,
       children: "structure",
     },
-    { text: "读书笔记", icon: "fa6-brands:readme", link: "https://www.notion.so/navyum/1c42fcd1fefa4e948d8514761b2ab8c7?v=0ca5dc6ee29e4c2787dbd0f1055b4ed0" }
+    { text: "读书笔记", 
+      icon: "fa6-brands:readme", 
+      link: "https://www.notion.so/navyum/1c42fcd1fefa4e948d8514761b2ab8c7?v=0ca5dc6ee29e4c2787dbd0f1055b4ed0" 
+    }
   ]
-  
+
 });
