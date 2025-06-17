@@ -3,10 +3,19 @@ title: API压测框架-locust
 date: 2025-03-20 17:41:00
 author: Navyum
 tags: 
- - 压力测试、瓶颈分析
+ - 压力测试
+ - 瓶颈分析
+ - P99X
 categories: 
- - 笔记
- - 使用心得
+ - 工具
+ - 压测
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: true
+star: true
 ---
 ## 关于性能测试
 * 目标：性能测试是软件开发生命周期中的一个关键阶段，旨在识别潜在的瓶颈，并确保应用程序在预期的用户负载下满足其性能标准

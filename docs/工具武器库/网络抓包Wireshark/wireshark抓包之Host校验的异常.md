@@ -2,12 +2,21 @@
 title: wireshark抓包-Host校验的异常
 date: 2025-03-28 15:11:11
 author: Navyum
+
 tags: 
+ - wireshark
  - 抓包
- - 分析
  - tomcat
 categories: 
- - 笔记
+ - wireshark
+ - 工具
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: true
+star: true
 ---
 ## wireshark抓包
 

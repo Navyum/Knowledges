@@ -4,9 +4,12 @@ date: 2025-02-06 19:31:15
 author: Navyum
 tags: 
  - LLM
+ - hugging face
+ - hf
 categories: 
- - 笔记
+ - 踩坑记录
 ---
+
 ## 白嫖huggingface的API
 
 ### 背景：

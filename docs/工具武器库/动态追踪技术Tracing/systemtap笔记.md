@@ -3,9 +3,13 @@ title: systemtap笔记
 date: 2025-04-17 18:27:34
 author: Navyum
 tags: 
- - systemtap 语法
+ - SystemTap
+ - 性能分析
+
 categories: 
- - 笔记
+ - 工具
+ - 性能分析
+ - Systemtap
 ---
 
 ## 笔记

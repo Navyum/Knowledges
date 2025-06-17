@@ -1,4 +1,16 @@
-# todo
+---
+title: todo
+date: 2025-06-17 11:37:34
+author: Navyum
+
+article: false
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+---
+
 
 1. 基于python使用gdb调试工具
 2. 火焰图的含义、各类火焰图 Flame Graph

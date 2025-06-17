@@ -3,9 +3,13 @@ title: systemTap安装
 date: 2025-04-03 10:32:17
 author: Navyum
 tags: 
- - 性能分析、内核探测、eBPF、systemtap
+ - SystemTap
+ - 性能分析
+
 categories: 
- - 笔记
+ - 工具
+ - 性能分析
+ - Systemtap
 ---
 ## systemTap安装
 

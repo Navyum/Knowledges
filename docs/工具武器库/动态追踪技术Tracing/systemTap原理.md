@@ -3,10 +3,14 @@ title: systemTap原理
 date: 2025-04-03 10:32:56
 author: Navyum
 tags: 
- - 性能分析、内核探测、eBPF、systemtap
+ - SystemTap
+ - 性能分析
 categories: 
- - 笔记
+ - 工具
+ - 性能分析
+ - Systemtap
 ---
+
 ## systemTap原理
 * 将stp文件编译为C文件，再将C文件编译为内核模块.ko文件，将.ko文件加载到内核中，最终利用内核提供的 `kprobes 机制`来设置探测点，采集数据存储到`probe.out`，从而进行系统性能分析。
 ### 一、systemTap运行流程

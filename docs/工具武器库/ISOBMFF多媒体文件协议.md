@@ -1,4 +1,22 @@
-# ISOBMFF多媒体文件协议
+---
+title: ISOBMFF多媒体文件协议
+date: 2025-06-17 11:40:22
+author: Navyum
+tags: 
+ - HEIF
+ - 规范
+categories: 
+ - HEIF
+ - 图片格式
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+---
+
+## ISOBMFF多媒体文件协议
 
 ## 多媒体文件
 

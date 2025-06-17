@@ -1,4 +1,20 @@
-# markdown高级技巧
+---
+title: markdown高级技巧
+date: 2025-06-17 11:43:44
+author: Navyum
+tags: 
+ - markdown高级技巧
+categories: 
+ - 技巧
+ - markdown
+ - 踩坑记录
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: true
+---
 
 
 ### 解决图片居中和大小问题

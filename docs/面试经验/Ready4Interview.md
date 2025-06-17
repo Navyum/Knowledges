@@ -1,4 +1,19 @@
-# 面试准备
+---
+title: 面试准备
+date: 2025-06-17 11:24:13
+author: Navyum
+tags: 
+ - 面试
+categories: 
+ - 面试
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: true
+---
+
 ### 前言
 
 由于我做了比较长时间的技术面试官，根据我的面试体会，不少同学收到面试后，什么准备也不会做，到时候问题就来了。

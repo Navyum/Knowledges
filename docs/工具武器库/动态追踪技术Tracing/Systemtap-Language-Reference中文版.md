@@ -3,9 +3,15 @@ title: Systemtap-Language-Reference中文版
 date: 2025-04-14 18:57:08
 author: Navyum
 tags: 
- - systemtap手册、Systemtap手册、SystemTap中文版、systemTap中文版、SystemTap语法
+ - Systemtap手册
+ - SystemTap语法
+ - Systemtap
 categories: 
  - 英文翻译
+ - 工具
+ - 性能分析
+ - Systemtap
+
 ---
 
 # SystemTap 语言参考手册-中文版

@@ -1,4 +1,22 @@
-# 火焰图
+---
+title: FlameGraph-火焰图
+date: 2025-06-17 11:26:14
+author: Navyum
+tags: 
+ - 性能分析
+ - 可视化
+ - FlameGraph
+categories: 
+ - 工具
+ - 性能分析
+ - FlameGraph
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+---
 
 火焰图是一种分层数据**可视化工具**，用于直观展示程序中时间都花在了哪里。
 栈采样：每秒多次，程序中的线程会被中断，同时记录下代码中的当前位置（基于线程的指令指针），以及到达该位置所调用的函数链。聚合结果。

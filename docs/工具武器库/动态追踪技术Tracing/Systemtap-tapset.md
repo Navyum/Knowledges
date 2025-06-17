@@ -1,4 +1,22 @@
-# SystemTap Tapset Reference Manual
+---
+title: SystemTap Tapset Reference Manual
+date: 2025-06-17 11:28:12
+author: Navyum
+tags: 
+ - SystemTap
+categories: 
+ - 工具
+ - 性能分析
+ - 英文翻译
+ - Systemtap
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+---
 
 ## SystemTap
 ----

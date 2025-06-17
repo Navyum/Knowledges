@@ -1,4 +1,22 @@
-# README
+---
+title: 静态动态追踪原理
+date: 2025-06-17 11:26:41
+author: Navyum
+tags: 
+ - 性能分析
+ - 可视化
+ - trace
+categories: 
+ - 工具
+ - 性能分析
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+---
 
 ### 动态追踪原理
 动态追踪工具在逻辑上比较简单：大多是通过类C语言创建一个脚本，通过编译器翻译成探测代码。**通过一个内核地址模块加载探测代码到内核地址空间，然后patch到当前内核的二进制代码中**。探针将收集的数据写到中间缓冲（这些buffers往往是lock-free的，所以他们对内核性能有较少影响，且不需要切换上下文到追踪程序）。另一个独立的实体消费者读取这些buffers，然后输出数据。

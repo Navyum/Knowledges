@@ -1,4 +1,21 @@
-# HEIF编解码器安装
+---
+title: HEIF编解码器安装
+date: 2025-06-17 11:39:40
+author: Navyum
+tags: 
+ - HEIF
+ - 环境安装
+categories: 
+ - HEIF
+ - 图片格式
+article: true
+index: true
+
+headerDepth: 2
+sticky: true
+star: true
+---
+
 
 ## HEIF编、解码器安装手册  by Navyum
 

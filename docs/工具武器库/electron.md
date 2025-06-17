@@ -1,4 +1,22 @@
-# 使用electron打包记录 
+---
+title: 使用electron打包记录 
+date: 2025-06-17 11:40:59
+author: Navyum
+tags: 
+ - electron
+ - 发布
+categories: 
+ - electron
+ - 发布
+ - 踩坑记录
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: true
+star: true
+---
 
 ## electron 打包 mac程序环境配置：
 

@@ -1,4 +1,21 @@
-# eBPF
+---
+title: eBPF技术
+date: 2025-06-17 11:29:33
+author: Navyum
+tags: 
+ - 性能分析
+ - 可视化
+ - eBPF
+categories: 
+ - 工具
+ - 性能分析
+
+article: true
+index: true
+headerDepth: 2
+sticky: false
+star: false
+---
 
 ### eBPF的原理
 使用验证器保证安全性，通过BPF映射实现内核-用户空间通信

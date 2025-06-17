@@ -3,9 +3,11 @@ title: paypal支付
 date: 2025-01-15 18:29:28
 author: Navyum
 tags: 
- - LLM
+ - paypal支付
 categories: 
  - 编程
+ - 技术方案
+
 ---
 ## paypal支付
 

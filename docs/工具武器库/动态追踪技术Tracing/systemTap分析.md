@@ -2,10 +2,19 @@
 title: systemTap分析
 date: 2025-04-11 14:52:58
 author: Navyum
+
 tags: 
- - systemtap、nginx源码、性能分析、TCP FIN、TCP RST
+ - SystemTap
+ - nginx源码
+ - 性能分析
+ - TCP FIN
+ - TCP RST
+
 categories: 
- - 笔记
+ - 工具
+ - 性能分析
+ - Systemtap
+
 ---
 ## systemTap分析
 本文主要通过案例演示的方式，介绍个人在使用systemtap对nginx（openresty）进行网络相关的探测的使用过程、使用感受以及过程中遇到的问题

@@ -1,4 +1,21 @@
-# jsdelivr使用
+---
+title: jsdelivr使用
+date: 2025-06-17 11:42:36
+author: Navyum
+tags: 
+ - jsdelivr
+ - CDN
+categories: 
+ - 踩坑记录
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: true
+---
+
 
 ## jsdelivr CDN 和 GitHub 的关系
 jsdelivr 是一个免费且可靠的内容分发网络（CDN）服务，允许开发者将静态资源存储在 GitHub 仓库中，并通过 jsdelivr 进行全球加速访问。具体来说，jsdelivr 能够通过提供一个 CDN 地址，将存储在 GitHub 仓库中的资源进行加速，从而使这些资源在全球范围内快速加载。

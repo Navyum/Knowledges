@@ -1,4 +1,19 @@
-# mac系统生成icns图标
+---
+title: mac系统生成icns图标
+date: 2025-06-17 11:43:15
+author: Navyum
+tags: 
+ - icns图标
+ - iconutil
+categories: 
+ - 踩坑记录
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: true
+---
 
 
 ### 生成合适的icon png图片

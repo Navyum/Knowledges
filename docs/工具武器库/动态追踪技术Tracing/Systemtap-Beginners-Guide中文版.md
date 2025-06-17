@@ -3,9 +3,14 @@ title: Systemtap-Beginners-Guide中文版
 date: 2025-04-15 00:12:34
 author: Navyum
 tags: 
- - systemtap新手指南、Systemtap新手指南、systemtap中文指南
+ - Systemtap新手指南
+ - Systemtap
 categories: 
  - 英文翻译
+ - 工具
+ - 性能分析
+ - Systemtap
+
 ---
 
 # SystemTap v5.2 新手指南-中文版

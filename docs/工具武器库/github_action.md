@@ -1,4 +1,21 @@
-# github action 踩坑记录
+---
+title: github action 踩坑记录
+date: 2025-06-17 11:41:40
+author: Navyum
+tags: 
+ - github工作流
+ - github Action
+categories: 
+ - 踩坑记录
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: true
+---
+
 
 ### 问题一：工作流互相触发异常的
 * 主要任务：
