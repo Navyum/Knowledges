@@ -1,4 +1,19 @@
-# docker
+---
+title: docker
+date: 2025-06-17 15:18:52
+author: Navyum
+tags: 
+ - Docker
+categories: 
+ - 容器技术
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: true
+---
+
 * client-server 架构
 * `docker client`使用REST API，通过UDS或者network，与`dockerd`进行通信
 ![Img](https://raw.staticdn.net/Navyum/imgbed/main/IMG/a2959a6248c161ea2a84e671c8a5d38d.png)

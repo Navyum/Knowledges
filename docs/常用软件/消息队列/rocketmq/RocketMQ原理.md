@@ -1,4 +1,20 @@
-# 原理
+---
+title: RocketMQ原理
+date: 2025-06-17 15:15:24
+author: Navyum
+tags: 
+ - 消息队列
+ - RocketMQ
+categories: 
+ - 常用软件
+ - 消息队列
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: true
+---
 
 ## 整体架构：
 <img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/dd4853b7ddf4ae9a421ff728ccaad2c4.png" width =60% >

@@ -4,8 +4,10 @@ date: 2025-02-06 19:31:15
 author: Navyum
 tags: 
  - LLM
+ - Prompt
 categories: 
- - 笔记
+ - LLM
+ - AI
 ---
 ## 白嫖huggingface的API
 

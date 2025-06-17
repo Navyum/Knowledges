@@ -1,4 +1,21 @@
-## 原理
+---
+title: kafka原理
+date: 2025-06-17 15:16:07
+author: Navyum
+tags: 
+ - kafka
+categories: 
+ - 消息队列
+ - 常用软件
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: true
+---
+
 ### 整体架构：
 <img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/09d7819af5b62fff56e36721d01d7c4f.png" width =60% >
 

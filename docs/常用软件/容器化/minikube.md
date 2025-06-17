@@ -1,3 +1,20 @@
+---
+title: minikube
+date: 2025-06-17 15:19:11
+author: Navyum
+tags: 
+ - minikube
+categories: 
+ - 踩坑笔记
+ - 容器技术
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: true
+---
+
 # minikube安装踩坑笔记
 
 * **步骤一**：minikube 执行文件下载（linux x86-64为例子）：

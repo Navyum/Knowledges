@@ -1,4 +1,19 @@
-# PPT
+---
+title: 如何写好PPT
+date: 2025-06-17 14:28:43
+author: Navyum
+tags: 
+ - 职场PPT
+ - PPT美化
+categories: 
+ - 个人思考
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: true
+---
 
 [link](https://appbHlkwH0P9313.h5.xiaoeknow.com/giftcode/0070090794277500973)
 
