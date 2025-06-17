@@ -76,7 +76,8 @@ export default hopeTheme(
       intro: "/intro.html",
       medias: {
         GitHub: "https://github.com/navyum",
-        Email: "yhj2433488839@gmail.com",
+        Email: "mailto:yhj2433488839@gmail.com",
+        Gmail: "mailto:yhj2433488839@gmail.com",
       },
     },
 
