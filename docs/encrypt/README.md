@@ -20,4 +20,4 @@ star: true
 order: -1
 ---
 
-加密内容，支持 Markdown 和 HTML 语言。
+这是password

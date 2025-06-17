@@ -1,3 +1,17 @@
+---
+#博客首页设置：https://theme-hope.vuejs.press/zh/guide/blog/home.html
+#home: true
+
+#icon: "/logo.svg"
+#title: 互联网爱好者
+#heroImage: /logo.svg
+#heroText: 互联网爱好者
+#tagline: 勇往直前
+#bgImage: https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05
+#heroFullScreen: false
+
+---
+
 <p align="center">
   <img src="/logo.svg" alt="Navyum's blog logo" width="100" height="auto" />
 </p>
