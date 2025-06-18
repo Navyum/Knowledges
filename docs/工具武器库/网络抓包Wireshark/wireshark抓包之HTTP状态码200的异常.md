@@ -24,7 +24,7 @@ star: true
 ### nginx server 以 content-type chunk格式返回的程序异常
 ---
 
-#### 背景：
+### 背景：
 业务需要通过脚本跑一批数据，数据有很多条，每条数据需要进行一次数据库查询、一次OSS下载，最终才能确定该记录的输出
 ```text
 输出举例：
@@ -34,13 +34,13 @@ star: true
 记录N： DB记录N + OSS记录N
 ```
 
-#### 业务方出现的问题：
+### 业务方出现的问题：
 在跑脚本时，使用curl命令行进行接口调用，对nginx的输出结果进行保存，但是出现报错：`curl: (18) transfer closed with outstanding read data remaining`。保存的结果文件里面记录正常。
 
 <p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/22236647388dc056bff4a58ab963567b.png" width="80%"></p>
 
 
-#### nginx配置
+### nginx配置
 ```nginx.conf
 location = /test {
     content_by_lua_block {
@@ -58,25 +58,25 @@ location = /test {
 }
 ```
 
-#### 最终定位到原因：
+### 最终定位到原因：
 直接原因：服务端主动断开了TCP连接，导致未完整发送chunk的终止块`0\r\n\r\n`，导致客户端接收时解析协议出错。
 根本原因：服务端程序出现异常中断，但是因为按照chunk格式返回时，HTTP 200的头在首个tcp包中已经发送无法修改。
 
 
-#### 分析过程：
-##### 1. 通过tcpdump进行抓包，在wireshark中打开
+### 分析过程：
+#### 1. 通过tcpdump进行抓包，在wireshark中打开
 <p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/d0a0640c241eb51617709e57acd76b73.png" width="80%"></p>
 
-##### 2. 解读
+#### 2. 解读
 * 30号包显示，最终由服务端（10.8.4.199）主动发送FIN断开TCP连接
 * 从30、31号包可以看出，整个挥手过程中，Seq、Ack的值都是正常的，说明TCP挥手也是正常进行的
 * 28号包存在问题点在于：Protocol根据Info来看，应该是`HTTP`才对，但是实际展示的是`TCP`
 
-##### 3. 搜索网上资料
+#### 3. 搜索网上资料
 * 在网上搜索相关资料，并结合实际代码，猜测是ngx.say导致的该问题。
 * 初步判断：ngx.say 必须结合ngx.eof 一起使用，但是实际设置后，没有作用，问题依然存在。
 
-##### 4. 重新从协议的角度重新分析
+#### 4. 重新从协议的角度重新分析
 * 根据以往经验，之前有一次手动设置content-length，但是因为计算错误导致的请求异常。
 * 我们重新结合 Content-Type为 `application/octet-stream`以及Transfer-Encoding为：<span style="color: rgb(255, 76, 65);">chunked的基础知识</span>：
   * 当前HTTP 响应体没有Content-Length，client端无法根据字节判断tcp包什么时候结束
@@ -95,7 +95,7 @@ location = /test {
         ```
         0\r\n\r\n (对应16进制 30 0d 0a 0d 0a)
         ```
-##### 5. 排查wireshark中stream 是否有正确的块结束符
+#### 5. 排查wireshark中stream 是否有正确的块结束符
 * 在wireshark中，选择对应的记录。右键 -> 【Follow】-> 【TCP Stream】
   ```
     ...
@@ -106,11 +106,11 @@ location = /test {
 * 末尾为0a 0d 0a，即\n\r\n。第一个\n是查询逻辑中的换行符，末尾的\r\n 表示，当前chunk的结束符。
 * 最终该TCP Stream 并没有发现chunk块结束符
 
-##### 6. 基于以上的信息，得知请求要么超时、要么是发生了异常
+#### 6. 基于以上的信息，得知请求要么超时、要么是发生了异常
 * 超时的情况、或者发生异常时，按照常应该是由客户端或者服务端发送`RST`
 * 但是这个案例里面，缺少了chunk结束块。服务端依然正常发送FIN包结束当前的TCP连接
 
-##### 7. 带着上面疑问，进一步排查看是否nginx哪里有问题
+#### 7. 带着上面疑问，进一步排查看是否nginx哪里有问题
 * 查看nginx的error.log，发现存在错误：
     ```
     [error] 22145#22145: *4985236 lua entry thread aborted: runtime error: .../openresty/nginx/conf/internal/xxxx-script.lua:3485: attempt to concatenate 'pages' (a nil value)
@@ -121,7 +121,7 @@ location = /test {
 * 可以看到因为是变量异常导致的`Abort`。这里存在一个疑问，程序abort，连接应该使用RST关闭才对，具体原因后面会使用bt trace 工具进行分析。
 * 先排查代码，查看对应行的记录，判断对应变量在某个记录查询时，会是空值nil，导致nginx流式输出中断。
 
-##### 8. 结合已知的情况，尝试复现问题
+#### 8. 结合已知的情况，尝试复现问题
 * 使用有问题的nginx配置：
   ```nginx.conf
    location = /test {
@@ -144,17 +144,17 @@ location = /test {
     * 问题得到复现 `curl: (18) transfer closed with outstanding read data remaining`
 
 
-#### 修复方案：
+### 修复方案：
 * 针对出现问的的pages变量，添加更健壮的代码逻辑进行判断是否为nil
 
 
-#### 回顾：
+### 回顾：
 * 该问题比较隐蔽，因为curl的响应头中HTTP状态码为 200，但是出现错误，这个现象颠覆了正常的认知,所以一开始没有怀疑程序出现问题。如果能更早的查看nginx的error.log，也许可以更快的定位问题。
 * 搜索网上的资料时，对类似的问题都是说是需要设置 ngx.eof()、ngx.fulsh()，直接误导了排查的方向
 * 在分析抓包的结果时，很长时间都无法直接判断是哪里除了问题，因为从TCP的层面排查，所有的包都是没有任何问题的。唯一露出的马脚就是应该展示为HTTP的协议实际展示为了TCP。
 * 该问题排查时，每次curl的结果都是一样的（因为pages为nil的就是有问题的那条记录），每次都能稳定复现。但是在测试环境，因为数据的差异，却无法直接复现问题，增加了排查的难度，尤其是测试环境构造数据进行测试时。
 
-#### 延伸：
+### 延伸：
 * 问题1：nginx环境中，当请求发生异常，什么情况下会使用`RST`中断，什么时候使用`FIN`优雅中断？
 * 问题2：为什么当前的案例，nginx使用的是FIN优雅关闭连接？
   * FIN：

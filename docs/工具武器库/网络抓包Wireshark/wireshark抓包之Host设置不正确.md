@@ -25,13 +25,13 @@ categories:
 ### Sling 请求k8s负载均衡器，导致的404错误
 ---
 
-#### 背景：
+### 背景：
 在一次业务开发中，业务中需要请求k8s服务地址。但是业务逻辑中的请求总是提示HTTP 404错误，使用curl 命令又是正确的。
 
-#### 出现问题：
+### 出现问题：
 在golang项目中，使用[Sling库](https://github.com/dghubble/sling)作为clinet，进行网络请求以获取服务响应结果
 
-#### 出错的关键golang代码如下
+### 出错的关键golang代码如下
 ```golang
 
     response:=new(Response)
@@ -51,7 +51,7 @@ categories:
 
 ```
 
-#### 最终定位到原因：
+### 最终定位到原因：
 直接原因：通过上述 Sling 的 Set 方法设置自定义的 Host 到 header 中，没有实际生效
 
 根本原因：
@@ -68,12 +68,13 @@ func addHeaders(req *http.Request, header http.Header) {
 - 而在 Go 的 net/http 标准库中，HTTP 请求的 Host 头部（Host header）是由 http.Request.Host 字段决定的，而不是 http.Request.Header["Host"]。
 如果只是设置了req.Header.Set("Host", ...)，Go 的 HTTP 客户端在发送请求时会忽略 Header 里的 "Host" 字段，而是只看 req.Host 字段。
 只有当 req.Host 为空时，Go 才会自动用 req.URL.Host 作为 Host 头。<span style="color: rgb(255, 76, 0);">巨坑啊巨坑！！！</span>
-> [!TIP]官方文档说明
+
+> 官方文档说明：
 > For client requests, Host optionally overrides the Host header to send. If empty, the Request.Write method uses the value of URL.Host.
 > [参考地址](https://pkg.go.dev/net/http#Request)
 
 
-#### 分析过程：
+### 分析过程：
 1. 分析出现 404 的可能原因：
     1. HTTP method 限制必须要是 POST 方式；如果设置为 GET，可能直接返回404
     2. HTTP 的 body没有成功读取到
@@ -117,7 +118,7 @@ func addHeaders(req *http.Request, header http.Header) {
             }
        ```
 
-#### 延伸：
+### 延伸：
 为什么 k8s ingress 需要设置不同的 Host？
 
 - 虚拟主机（Virtual Host）路由机制
@@ -157,7 +158,7 @@ Kubernetes Ingress 允许你在同一个 Ingress Controller（比如 nginx-ingre
 - API Gateway ： 例如Kong、APISIX、AWS API Gateway 等 API 网关
 - 多租户 SaaS 平台：使用Host区分租户
 - 云负载均衡（Cloud Load Balancer）：AWS ELB/ALB、GCP Load Balancer、Azure Application Gateway 等，支持基于 Host 的路由
-反向代理（Reverse Proxy）：Nginx/Apache/HAProxy 等反向代理服务器常常根据 Host 头来做虚拟主机路由
+- 反向代理（Reverse Proxy）：Nginx/Apache/HAProxy 等反向代理服务器常常根据 Host 头来做虚拟主机路由
 
 总结：
 只要有"统一入口+多后端"或"虚拟主机"需求的地方，Host 头和实际请求地址（地址只是个统一入口）就可能不一样。这也是为什么很多云原生、微服务、SaaS、测试、代理等场景都需要手动设置 Host 头。

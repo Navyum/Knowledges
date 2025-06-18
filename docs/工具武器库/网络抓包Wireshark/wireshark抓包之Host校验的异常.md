@@ -23,13 +23,13 @@ star: true
 ### nginx 负载均衡导致的400错误
 ---
 
-#### 背景：
+### 背景：
 因为转换服务比较耗CPU等资源，业务层针对pdf转offcie服务做负载均衡
 
-#### 出现问题：
+### 出现问题：
 未做负载均衡前，一切正常；添加负载均衡之后反而失败了
 
-#### 出错的nginx配置
+### 出错的nginx配置
 ```nginx.conf
 location /aspose_sdk/
 {
@@ -52,11 +52,11 @@ upstream aspose_sdk {
 }
 ```
 
-#### 最终定位到原因：
+### 最终定位到原因：
 直接原因：上游的aspose服务spring boot使用的是tomcat的网络框架，对host校验规则存在一些问题，不支持下划线。附[issue](https://github.com/spring-projects/spring-boot/issues/13236)
 根本原因：nginx本身使用的backend别名作为Host name，没有正确处理host。（在不设置proxy_set_header的情况下，默认为 `proxy_set_header $proxy_host`）
 
-#### 分析过程：
+### 分析过程：
 1. 复现问题：
 <p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/6a47790d218ab48980a42da6b727d9a7.png" width="80%"></p>
 2. 通过tcpdump进行抓包，在wireshark中打开
@@ -82,7 +82,7 @@ upstream aspose_sdk {
     2. 设置正确的Host，`proxy_set_header HOST $host`
        * 设置为正常的Host（虽然大多时候没啥问题，出问题可难排查）
 
-#### 延伸：
+### 延伸：
 1. nginx 在使用upstream时，命名最好不要带符号和数字（避免出现问题）
 2. 设置正确的Host（做好规范）
 3. proxy_set_header的用法

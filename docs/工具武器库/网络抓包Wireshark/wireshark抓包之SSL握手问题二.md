@@ -24,13 +24,13 @@ star: true
 ### 证书过期问题导致的网关层返回502错误
 ---
 
-#### 背景：
+### 背景：
 新对接的新服务，在nginx上配置为反向代理upstream进行访问
 
-#### 业务方出现的问题：
+### 业务方出现的问题：
 访问时稳定复现502错误，但是使用curl则正常。nginx配置如下：
 
-#### 出错的nginx配置
+### 出错的nginx配置
 ```nginx.conf
 location /test
 {
@@ -51,14 +51,14 @@ upstream middleground_workonly_backend {
 }
 ```
 
-#### 最终定位到原因：
+### 最终定位到原因：
 直接原因：SSL握手校验不通过，导致握手失败
 根本原因：服务端的证书过期
 
-#### 如何解决：
+### 如何解决：
 更新证书有效期
 
-#### 分析过程：
+### 分析过程：
 1. 复现问题：
    <p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/567b0cd154d0ac2ed69d1d9b06dbb265.png" width="80%"></p>
 2. 查看域名解析情况：

@@ -23,13 +23,13 @@ star: true
 ### SNI问题导致的网关层返回502错误
 ---
 
-#### 背景：
+### 背景：
 最近攻防等原因，运维将测试环境部分域名上了cloudflare（主要是海外）
 
-#### 业务方出现的问题：
+### 业务方出现的问题：
 在nginx中，这些域名被用做反向代理的upstream，在添加cloudflare之后，访问出现 http 502，具体配置如下
 
-#### 出错的nginx配置
+### 出错的nginx配置
 ```nginx.conf
 location /proxy/cn/
 {
@@ -50,11 +50,11 @@ upstream user_cs_cn_backend {
 }
 ```
 
-#### 最终定位到原因：
+### 最终定位到原因：
 直接原因：跟cloudflare层的SSL握手失败
 根本原因：nginx的配置错误、nginx本身没有正确处理SNI
 
-#### 如何解决：
+### 如何解决：
 在反向代理层添加
 ```nginx.conf
 location  /proxy/cn/ {
@@ -65,7 +65,7 @@ proxy_ssl_name "upstream-domain-name";
 }
 ``` 
 
-#### 分析过程：
+### 分析过程：
 1. 复现问题：
     <p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/948a66b5573e0091700f8bdc3696a561.png" width="80%"></p>
 2. 查看域名解析情况：
