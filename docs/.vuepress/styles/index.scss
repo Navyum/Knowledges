@@ -19,3 +19,14 @@
   }
 }
  */
+
+// Mermaid 图表自适应
+.mermaid {
+  max-width: 100%;
+  overflow-x: auto;
+  
+  svg {
+    max-width: 100%;
+    height: auto !important;
+  }
+}
