@@ -27,6 +27,7 @@ jobs:
           token: ${{ secrets.TARGET_REPO_TOKEN }}  # 需要在主仓库设置此 secret
           path: Knowledge
           persist-credentials: false
+          fetch-depth: 0
 
       - name: Show workspace structure
         run: |
@@ -69,8 +70,16 @@ jobs:
           git config --global user.email "sync-bot@example.com"
           git add -A
           git commit -m "[sync] Force update from source repo" || exit 0
-          echo ${{ secrets.TARGET_REPO_TOKEN }}
+          
+          # 清除所有现有的认证信息
+          git config --global --unset credential.helper || true
+          git config --system --unset credential.helper || true
+          git config --local --unset credential.helper || true
+          
+          # 重新设置远程 URL（确保使用 token）
+          echo "=== 设置远程 URL ==="
           git remote set-url origin https://${{ secrets.TARGET_REPO_TOKEN }}@github.com/Navyum/Knowledge.git
+          git remote -v
           
           # 检查权限
           echo "=== 权限检查 ==="
