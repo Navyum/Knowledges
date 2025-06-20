@@ -52,11 +52,12 @@ jobs:
 
       - name: Sync folders
         run: |
+          pwd
+          ls -la
           echo "=== 同步文件夹 ==="
           # 递归删除目标仓库中所有非.开头的文件夹
           find target -maxdepth 1 -type d ! -name '.' ! -name '.*' -exec rm -rf {} +
           
-          ls -la target
           # 复制源仓库的docs目录下的符合规则的文件夹到目标仓库
           DIRS=($(find source/docs -mindepth 1 -maxdepth 1 -type d ! -name '.' ! -name '.*' ! -name '_*' -printf '%f\n'))
           echo "要同步的文件夹: ${DIRS[@]}"
