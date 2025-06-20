@@ -57,11 +57,17 @@ jobs:
           ls -la target
           ls -la source
           echo "=== 同步文件夹 ==="
-          # 递归删除目标仓库中所有非.开头的文件夹
-          delete_dir=$(find target/* -mindepth 1 -maxdepth 1 -type d ! -name '.*')
-          echo "删除的文件夹: $delete_dir"
-          if [ -n "$delete_dir" ]; then
-            rm -rf $delete_dir
+          # 删除目标仓库中第一层的非隐藏文件夹
+          delete_dirs=$(find target -maxdepth 1 -mindepth 1 -type d ! -name '.*')
+          echo "删除的文件夹:"
+          echo "$delete_dirs"
+          if [ -n "$delete_dirs" ]; then
+            echo "$delete_dirs" | while read -r dir; do
+              if [ -n "$dir" ]; then
+                echo "删除: $dir"
+                rm -rf "$dir"
+              fi
+            done
           fi
           
           # 复制源仓库的docs目录下的符合规则的文件夹到目标仓库
