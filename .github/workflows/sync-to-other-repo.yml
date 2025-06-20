@@ -66,9 +66,8 @@ jobs:
           
           echo "=== 同步后的目标仓库结构 ==="
           ls -la target/
-
-      - name: Commit & Push to target repo
-        run: |
+          
+          echo "=== 提交并推送 ==="
           cd target
           git config --global user.name "Sync Bot"
           git config --global user.email "sync-bot@example.com"
