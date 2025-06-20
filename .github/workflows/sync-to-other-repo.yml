@@ -49,6 +49,8 @@ jobs:
       - name: Commit & Push to target repo
         run: |
           cd Knowledge
+          git config --global user.name "Sync Bot"
+          git config --global user.email "sync-bot@example.com"
           git add -A
           git commit -m "[sync] Force update from source repo" || exit 0
           echo ${{ secrets.TARGET_REPO_TOKEN }}
