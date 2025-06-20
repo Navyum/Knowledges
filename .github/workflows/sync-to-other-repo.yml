@@ -54,6 +54,8 @@ jobs:
         run: |
           pwd
           ls -la
+          ls -la target
+          ls -la source
           echo "=== 同步文件夹 ==="
           # 递归删除目标仓库中所有非.开头的文件夹
           delete_dir=$(find target -maxdepth 1 -type d ! -name '.' ! -name '.*')
