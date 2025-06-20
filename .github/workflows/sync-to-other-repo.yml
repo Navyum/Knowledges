@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout source repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -21,7 +21,7 @@ jobs:
           ls -l
 
       - name: Checkout target repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: navyum/Knowledge   # 替换为目标仓库
           token: ${{ secrets.GITHUB_TOKEN }}  # 需要在主仓库设置此 secret
@@ -29,8 +29,8 @@ jobs:
 
       - name: Show workspace structure
         run: |
-          ls -l Knowledge
           ls -l
+          ls -l Knowledge
 
       - name: Sync folders (force overwrite, keep dot folders)
         run: |
@@ -38,7 +38,8 @@ jobs:
           find Knowledge -maxdepth 1 -type d ! -name '.' ! -name '.*' -exec rm -rf {} +
           ls -l 
           # 复制主仓库的docs目录下的符合规则的文件夹到目标仓库
-          DIRS=($(find docs -maxdepth 1 -type d ! -name '.' ! -name '.*' ! -name '_*' -printf '%f\n'))
+          DIRS=($(find docs -mindepth 1 -maxdepth 1 -type d ! -name '.' ! -name '.*' ! -name '_*' -printf '%f\n'))
+          echo "DIRS: ${DIRS[@]}"
           for d in "${DIRS[@]}"; do
             cp -r "docs/$d" Knowledge/
           done
