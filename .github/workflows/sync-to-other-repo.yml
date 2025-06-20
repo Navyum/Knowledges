@@ -30,18 +30,19 @@ jobs:
       - name: Show workspace structure
         run: |
           ls -l Knowledge
+          ls -l
 
       - name: Sync folders (force overwrite, keep dot folders)
         run: |
           # 递归删除所有非.开头的文件夹
           find Knowledge -maxdepth 1 -type d ! -name '.' ! -name '.*' -exec rm -rf {} +
-          ls -l Knowledge
+          ls -l 
           # 复制主仓库的docs目录下的符合规则的文件夹到目标仓库
           DIRS=($(find docs -maxdepth 1 -type d ! -name '.' ! -name '.*' ! -name '_*' -printf '%f\n'))
           for d in "${DIRS[@]}"; do
             cp -r "docs/$d" Knowledge/
           done
-          ls -l Knowledge
+          ls -l 
 
       - name: Commit & Push to target repo
         run: |
