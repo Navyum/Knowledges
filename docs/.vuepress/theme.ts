@@ -195,7 +195,7 @@ export default hopeTheme(
     encrypt: {
       config: {
         // 这会加密整个 _encrypt 目录，并且两个密码都是可用的
-        "/_encrypt/": {
+        "/encrypt/": {
           password: ["12345678"],
           hint: "从 xxx 获取密码",
         },
