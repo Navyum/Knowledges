@@ -25,37 +25,8 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: Show workspace structure
-        run: |
-          pwd
-          ls -la
-          echo "=== Source repo ==="
-          ls -la source/
-          echo "=== Target repo ==="
-          ls -la target/
-
-      - name: Check TARGET_REPO_TOKEN
-        run: |
-          if [ -z "${{ secrets.TARGET_REPO_TOKEN }}" ]; then
-            echo "Error: TARGET_REPO_TOKEN is not set or empty"
-            exit 1
-          else
-            echo "TARGET_REPO_TOKEN is set"
-            # 测试 token 是否有效（不显示 token 内容）
-            if curl -s -H "Authorization: token ${{ secrets.TARGET_REPO_TOKEN }}" https://api.github.com/user | grep -q '"login"'; then
-              echo "TARGET_REPO_TOKEN is valid"
-            else
-              echo "Error: TARGET_REPO_TOKEN is invalid"
-              exit 1
-            fi
-          fi
-
       - name: Sync folders
         run: |
-          pwd
-          ls -la
-          ls -la target
-          ls -la source
           echo "=== 同步文件夹 ==="
           # 删除目标仓库中第一层的非隐藏文件夹
           delete_dirs=$(find target -maxdepth 1 -mindepth 1 -type d ! -name '.*')
