@@ -194,8 +194,8 @@ export default hopeTheme(
     // 加密配置样例（不需要可删除）注意，受到 VuePress 的限制，在未解密前，文章内容仅仅被隐藏，访问者仍可以从源码中获取文章的内容。
     encrypt: {
       config: {
-        // 这会加密整个 encrypt 目录，并且两个密码都是可用的
-        "/encrypt/": {
+        // 这会加密整个 _encrypt 目录，并且两个密码都是可用的
+        "/_encrypt/": {
           password: ["12345678"],
           hint: "从 xxx 获取密码",
         },
