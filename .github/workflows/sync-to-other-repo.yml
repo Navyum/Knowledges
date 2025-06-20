@@ -80,26 +80,18 @@ jobs:
           
           echo "=== 同步后的目标仓库结构 ==="
           ls -la target/
-          rm -rf source/
+          # rm -rf source/
           
           echo "=== 提交并推送 ==="
           cd target
           git config --global user.name "Sync Bot"
           git config --global user.email "sync-bot@example.com"
           
-          echo "=== Git 状态 ==="
-          git status
-          git remote -v
-          
           git add -A
           git commit -m "[sync] Force update from source repo" || exit 0
           
           # 设置远程 URL 使用 token
           git remote set-url origin https://${{ secrets.TARGET_REPO_TOKEN }}@github.com/Navyum/Knowledge.git
-          
-          echo "=== 推送前检查 ==="
-          git remote -v
-          git ls-remote origin main
           
           echo "=== 开始推送 ==="
           git push origin main
