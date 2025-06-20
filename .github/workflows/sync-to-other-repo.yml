@@ -46,6 +46,15 @@ jobs:
           done
           ls -l 
 
+      - name: Check TARGET_REPO_TOKEN
+        run: |
+          if [ -z "${{ secrets.TARGET_REPO_TOKEN }}" ]; then
+            echo "Error: TARGET_REPO_TOKEN is not set or empty"
+            exit 1
+          else
+            echo "TARGET_REPO_TOKEN is set (length: ${#TARGET_REPO_TOKEN})"
+          fi
+
       - name: Commit & Push to target repo
         run: |
           cd Knowledge
@@ -54,5 +63,6 @@ jobs:
           git add -A
           git commit -m "[sync] Force update from source repo" || exit 0
           echo ${{ secrets.TARGET_REPO_TOKEN }}
+          
           git remote set-url origin https://${{ secrets.TARGET_REPO_TOKEN }}@github.com/Navyum/Knowledge.git
           git push origin main
