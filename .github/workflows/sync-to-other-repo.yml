@@ -52,7 +52,14 @@ jobs:
             echo "Error: TARGET_REPO_TOKEN is not set or empty"
             exit 1
           else
-            echo "TARGET_REPO_TOKEN is set (length: ${#TARGET_REPO_TOKEN})"
+            echo "TARGET_REPO_TOKEN is set"
+            # 测试 token 是否有效（不显示 token 内容）
+            if curl -s -H "Authorization: token ${{ secrets.TARGET_REPO_TOKEN }}" https://api.github.com/user | grep -q '"login"'; then
+              echo "TARGET_REPO_TOKEN is valid"
+            else
+              echo "Error: TARGET_REPO_TOKEN is invalid"
+              exit 1
+            fi
           fi
 
       - name: Commit & Push to target repo
@@ -63,6 +70,33 @@ jobs:
           git add -A
           git commit -m "[sync] Force update from source repo" || exit 0
           echo ${{ secrets.TARGET_REPO_TOKEN }}
-          
           git remote set-url origin https://${{ secrets.TARGET_REPO_TOKEN }}@github.com/Navyum/Knowledge.git
+          
+          # 检查权限
+          echo "=== 权限检查 ==="
+          echo "1. 检查远程仓库访问权限..."
+          if git ls-remote origin > /dev/null 2>&1; then
+            echo "✓ 可以访问远程仓库"
+          else
+            echo "✗ 无法访问远程仓库"
+            exit 1
+          fi
+          
+          echo "2. 检查分支访问权限..."
+          if git ls-remote origin main > /dev/null 2>&1; then
+            echo "✓ 可以访问 main 分支"
+          else
+            echo "✗ 无法访问 main 分支"
+            exit 1
+          fi
+          
+          echo "3. 检查推送权限..."
+          if git push --dry-run origin main > /dev/null 2>&1; then
+            echo "✓ 有推送权限"
+          else
+            echo "✗ 没有推送权限"
+            exit 1
+          fi
+          
+          echo "=== 开始推送 ==="
           git push origin main
