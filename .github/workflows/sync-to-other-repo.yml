@@ -13,39 +13,26 @@ jobs:
       - name: Checkout source repo
         uses: actions/checkout@v4
         with:
+          path: source
           fetch-depth: 0
-
-      - name: Show workspace structure
-        run: |
-          pwd
-          ls -l
 
       - name: Checkout target repo
         uses: actions/checkout@v4
         with:
-          repository: Navyum/Knowledge   # 修正仓库名称大小写
-          token: ${{ secrets.TARGET_REPO_TOKEN }}  # 需要在主仓库设置此 secret
-          path: Knowledge
+          repository: Navyum/Knowledge
+          token: ${{ secrets.TARGET_REPO_TOKEN }}
+          path: target
           persist-credentials: false
           fetch-depth: 0
 
       - name: Show workspace structure
         run: |
-          ls -l
-          ls -l Knowledge
-
-      - name: Sync folders (force overwrite, keep dot folders)
-        run: |
-          # 递归删除所有非.开头的文件夹
-          find Knowledge -maxdepth 1 -type d ! -name '.' ! -name '.*' -exec rm -rf {} +
-          ls -l 
-          # 复制主仓库的docs目录下的符合规则的文件夹到目标仓库
-          DIRS=($(find docs -mindepth 1 -maxdepth 1 -type d ! -name '.' ! -name '.*' ! -name '_*' -printf '%f\n'))
-          echo "DIRS: ${DIRS[@]}"
-          for d in "${DIRS[@]}"; do
-            cp -r "docs/$d" Knowledge/
-          done
-          ls -l 
+          pwd
+          ls -la
+          echo "=== Source repo ==="
+          ls -la source/
+          echo "=== Target repo ==="
+          ls -la target/
 
       - name: Check TARGET_REPO_TOKEN
         run: |
@@ -63,69 +50,42 @@ jobs:
             fi
           fi
 
+      - name: Sync folders
+        run: |
+          echo "=== 同步文件夹 ==="
+          # 递归删除目标仓库中所有非.开头的文件夹
+          find target -maxdepth 1 -type d ! -name '.' ! -name '.*' -exec rm -rf {} +
+          
+          # 复制源仓库的docs目录下的符合规则的文件夹到目标仓库
+          DIRS=($(find source/docs -mindepth 1 -maxdepth 1 -type d ! -name '.' ! -name '.*' ! -name '_*' -printf '%f\n'))
+          echo "要同步的文件夹: ${DIRS[@]}"
+          for d in "${DIRS[@]}"; do
+            echo "复制: source/docs/$d -> target/$d"
+            cp -r "source/docs/$d" target/
+          done
+          
+          echo "=== 同步后的目标仓库结构 ==="
+          ls -la target/
+
       - name: Commit & Push to target repo
         run: |
-          cd Knowledge
+          cd target
           git config --global user.name "Sync Bot"
           git config --global user.email "sync-bot@example.com"
+          
+          echo "=== Git 状态 ==="
+          git status
+          git remote -v
+          
           git add -A
           git commit -m "[sync] Force update from source repo" || exit 0
           
-          # 清除所有现有的认证信息
-          git config --global --unset credential.helper || true
-          git config --local --unset credential.helper || true
-          
-          # 重新设置远程 URL（确保使用 token）
-          echo "=== 设置远程 URL ==="
+          # 设置远程 URL 使用 token
           git remote set-url origin https://${{ secrets.TARGET_REPO_TOKEN }}@github.com/Navyum/Knowledge.git
+          
+          echo "=== 推送前检查 ==="
           git remote -v
-          
-          # 检查权限
-          echo "=== 权限检查 ==="
-          echo "1. 检查远程仓库访问权限..."
-          if git ls-remote origin > /dev/null 2>&1; then
-            echo "✓ 可以访问远程仓库"
-          else
-            echo "✗ 无法访问远程仓库"
-            echo "错误详情："
-            git ls-remote origin
-            exit 1
-          fi
-          
-          echo "2. 检查分支访问权限..."
-          if git ls-remote origin main > /dev/null 2>&1; then
-            echo "✓ 可以访问 main 分支"
-          else
-            echo "✗ 无法访问 main 分支"
-            echo "错误详情："
-            git ls-remote origin main
-            exit 1
-          fi
-          
-          echo "3. 检查推送权限..."
-          echo "尝试模拟推送（显示详细错误）..."
-          if git push --dry-run origin main 2>&1; then
-            echo "✓ 有推送权限"
-          else
-            echo "✗ 没有推送权限"
-            echo "尝试强制推送..."
-            if git push --dry-run --force origin main 2>&1; then
-              echo "✓ 有强制推送权限"
-            else
-              echo "✗ 没有强制推送权限"
-              echo "=== 详细调试信息 ==="
-              echo "当前目录: $(pwd)"
-              echo "Git 状态:"
-              git status
-              echo "远程仓库配置:"
-              git remote -v
-              echo "分支信息:"
-              git branch -a
-              echo "Token 测试（不显示内容）:"
-              curl -s -H "Authorization: token ${{ secrets.TARGET_REPO_TOKEN }}" https://api.github.com/repos/Navyum/Knowledge | jq -r '.name, .permissions.push'
-              exit 1
-            fi
-          fi
+          git ls-remote origin main
           
           echo "=== 开始推送 ==="
           git push origin main
