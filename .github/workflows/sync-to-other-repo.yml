@@ -26,6 +26,7 @@ jobs:
           repository: navyum/Knowledge   # 替换为目标仓库
           token: ${{ secrets.TARGET_REPO_TOKEN }}  # 需要在主仓库设置此 secret
           path: Knowledge
+          persist-credentials: false
 
       - name: Show workspace structure
         run: |
@@ -48,8 +49,8 @@ jobs:
       - name: Commit & Push to target repo
         run: |
           cd Knowledge
-          git config user.name \"github-actions[bot]\"
-          git config user.email \"github-actions[bot]@users.noreply.github.com\"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m '[sync] Force update from source repo' || echo 'Nothing to commit'
-          git push origin main  # 或目标分支
+          git commit -m "[sync] Force update from source repo" || echo "Nothing to commit"
+          git push https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/navyum/Knowledge.git main
