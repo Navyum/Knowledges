@@ -58,9 +58,11 @@ jobs:
           ls -la source
           echo "=== 同步文件夹 ==="
           # 递归删除目标仓库中所有非.开头的文件夹
-          delete_dir=$(find target -maxdepth 1 -type d ! -name '.' ! -name '.*')
+          delete_dir=$(find target/* -mindepth 1 -maxdepth 1 -type d ! -name '.*')
           echo "删除的文件夹: $delete_dir"
-          rm -rf $delete_dir
+          if [ -n "$delete_dir" ]; then
+            rm -rf $delete_dir
+          fi
           
           # 复制源仓库的docs目录下的符合规则的文件夹到目标仓库
           DIRS=($(find source/docs -mindepth 1 -maxdepth 1 -type d ! -name '.' ! -name '.*' ! -name '_*' -printf '%f\n'))
@@ -72,6 +74,7 @@ jobs:
           
           echo "=== 同步后的目标仓库结构 ==="
           ls -la target/
+          rm -rf source/
           
           echo "=== 提交并推送 ==="
           cd target
