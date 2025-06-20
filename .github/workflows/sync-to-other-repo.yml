@@ -47,11 +47,10 @@ jobs:
           ls -l 
 
       - name: Commit & Push to target repo
+        env:
+          GITHUB_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
         run: |
           cd Knowledge
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/Navyum/Knowledge.git
-          git add .
-          git commit -m "[sync] Force update from source repo" || echo "Nothing to commit"
+          git add -A
+          git commit -m "[sync] Force update from source repo" || exit 0
           git push origin main
