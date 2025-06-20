@@ -73,7 +73,6 @@ jobs:
           
           # 清除所有现有的认证信息
           git config --global --unset credential.helper || true
-          git config --system --unset credential.helper || true
           git config --local --unset credential.helper || true
           
           # 重新设置远程 URL（确保使用 token）
