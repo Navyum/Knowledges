@@ -1,3 +1,21 @@
+---
+title: array、slice
+author: navyum
+date: 2025-06-21 22:23:14
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+  - 笔记
+---
+
 1. 数组和切片的区别和联系：
     1. slice 的底层数据是数组，slice 是对数组的封装
     2. 数组是定长的，长度定义好之后，不能再更改;而切片则非常灵活，它可以动态地扩容

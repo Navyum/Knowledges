@@ -1,3 +1,21 @@
+---
+title: map
+author: navyum
+date: 2025-06-21 22:25:18
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+  - 笔记
+---
+
 1. map的结构体：
 ```plain
 // A header for a Go map.

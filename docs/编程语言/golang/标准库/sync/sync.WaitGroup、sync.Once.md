@@ -1,3 +1,21 @@
+---
+title: sync.WaitGroup、sync.Once
+author: navyum
+date: 2025-06-21 22:29:23
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+  - 笔记
+---
+
 Once同时使用了原子操作和互斥锁，原子操作操作done的值，互斥锁用来锁定临界区代码（如果是对代码块进行保护，还需要用锁）
 
 

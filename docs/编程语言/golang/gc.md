@@ -1,3 +1,21 @@
+---
+title: gc
+author: navyum
+date: 2025-06-21 22:23:51
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+  - 笔记
+---
+
 [https://segmentfault.com/a/1190000022030353](https://segmentfault.com/a/1190000022030353)
 
 1. 常见GC方式

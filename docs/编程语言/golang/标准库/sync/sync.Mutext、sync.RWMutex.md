@@ -1,3 +1,22 @@
+---
+title: sync.Mutext、sync.RWMutex
+author: navyum
+date: 2025-06-21 22:29:00
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+
+  - 笔记
+---
+
 Mutex定义：
 
     互斥锁看作是针对某一个临界区或某一组相关临界区的唯一访问令牌

@@ -1,3 +1,22 @@
+---
+title: context
+author: navyum
+date: 2025-06-21 22:29:35
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+
+  - 笔记
+---
+
 1. 作用：context 用来解决 goroutine 之间`退出通知`、`元数据传递`的功能 
 2. context 使用注意事项：
     1. 不要将 Context 塞到结构体里。直接将 Context 类型作为函数的第一参数，而且一般都命名为 ctx。

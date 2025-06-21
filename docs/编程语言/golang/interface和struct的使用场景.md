@@ -1,3 +1,21 @@
+---
+title: interface和struct的使用场景
+author: navyum
+date: 2025-06-21 22:25:04
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+  - 笔记
+---
+
 在 Go 中，interface 和 struct 都是非常重要的类型，但它们的使用场景有所不同。
 
 使用 interface 的场景：

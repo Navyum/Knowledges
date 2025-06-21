@@ -1,3 +1,21 @@
+---
+title: atomic
+author: navyum
+date: 2025-06-21 22:28:38
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+  - 笔记
+---
+
 互斥锁虽然可以保证临界区中代码的串行执行，但却不能保证这些代码执行的原子性（atomicity）
 
 在众多的同步工具中，真正能够保证原子性执行的只有原子操作

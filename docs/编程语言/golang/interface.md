@@ -1,3 +1,21 @@
+---
+title: interface
+author: navyum
+date: 2025-06-21 22:24:53
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+  - 笔记
+---
+
 1. 接口的作用：
     1. 隐藏细节：通过接口可以对对象进行必要的抽象
     2. 解耦：      通过接口，我们能够以模块化的方式构建起复杂、庞大的系统

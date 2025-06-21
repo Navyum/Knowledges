@@ -1,4 +1,21 @@
-# go学习笔记
+---
+title: golang学习笔记
+author: navyum
+date: 2025-06-21 22:24:10
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+  - 踩坑笔记
+tag:
+  - 笔记
+---
 
 ### omitempty踩坑
 * 场景：json、struct转换

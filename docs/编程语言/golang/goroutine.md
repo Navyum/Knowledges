@@ -1,8 +1,27 @@
+---
+title: goroutine
+author: navyum
+date: 2025-06-21 22:24:37
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+  - 笔记
+---
+
+
 G、P、M
 
 Goroutine                                                       Machine
 
-Goroutine                     Processor                  Machine
+Goroutine                     Processor                         Machine
 
 Goroutine                                                       Machine
 

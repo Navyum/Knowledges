@@ -1,3 +1,21 @@
+---
+title: options函数选项模式
+author: navyum
+date: 2025-06-21 22:25:29
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+  - 笔记
+---
+
 1. 作用：解决多参数配置问题
 2. 优点：
     1. API 具有可扩展性，高度可配置化，新增参数不会破坏现有代码；

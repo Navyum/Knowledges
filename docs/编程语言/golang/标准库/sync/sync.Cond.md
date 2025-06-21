@@ -1,3 +1,22 @@
+---
+title: sync.Cond
+author: navyum
+date: 2025-06-21 22:28:53
+
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+
+category:
+  - 笔记
+tag:
+
+  - 笔记
+---
+
 条件变量定义：
 
     当共享资源的状态不满足条件的时候，想操作它的线程再也不用循环往复地做检查了，只要等待通知就好了。
