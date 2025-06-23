@@ -1,13 +1,24 @@
-[https://github.com/avelino/awesome-go](https://github.com/avelino/awesome-go)
+---
+title: go学习笔记（强类型的静态无虚拟机语言）
+date: 2025-06-23 11:18:58
+author: Navyum
+tags: 
+ - golang
+categories: 
+ - golang
+article: true
+index: true
+
+headerDepth: 2
+sticky: false
+star: false
+---
 
 1. “业务逻辑”和“控制逻辑”分离解耦的编程模式
-a. 反转控制：  开关和各种电器，不是将开关放在电器中，而是将开关抽象出来，由电器依赖开关，这样实现开关模块的独立和复用。
-
-b. map、redunce、filter
-
-c. reflect
-
-     d. 目前go 的泛型编程基于interface
+    a. 反转控制：  开关和各种电器，不是将开关放在电器中，而是将开关抽象出来，由电器依赖开关，这样实现开关模块的独立和复用。
+    b. map、redunce、filter
+    c. reflect
+    d. 目前go 的泛型编程基于interface
 
 2. 修饰器编程模式
 3. 编程范式：过程式编程procedural、函数式编程functional、面向对象编程object-oriented
@@ -20,7 +31,7 @@ c. reflect
     * 通过指针，C 语言可以容易地对内存进行低级控制，然而这加大了编程复杂度；
     * 编译预处理让 C 语言的编译更具有弹性，比如跨平台。
 5. C 语言的伟大之处
-使用 C 语言的程序员在高级语言的特性之上还能简单地做任何底层上的微观控制
+   使用 C 语言的程序员在高级语言的特性之上还能简单地做任何底层上的微观控制
 6. c语言设计理念：
     * 相信程序员；
     * 不会阻止程序员做任何底层的事；
@@ -63,5 +74,6 @@ c. reflect
 
        绝大多数程序复杂混乱的根本原因：业务逻辑与控制逻辑的耦合。
 
-
-14. go 语言资料：  [https://time.geekbang.org/column/article/8701](https://time.geekbang.org/column/article/8701)
+14. go 语言资料：  
+    [https://time.geekbang.org/column/article/8701](https://time.geekbang.org/column/article/8701)
+    [https://github.com/avelino/awesome-go](https://github.com/avelino/awesome-go)
