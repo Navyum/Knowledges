@@ -118,6 +118,7 @@ export default hopeTheme(
       },
 
       // 评论配置（仅做样例，记得更换）
+
       comment: {
         // 在本地运行 `pnpm docs:dev` 并使用非 localhost 域名时，容易出现 403 错误，移除本部分即可解决
         provider: "Waline",
@@ -160,7 +161,6 @@ export default hopeTheme(
           categoryId: "DIC_kwDOM_MPJM4CjS0P",
         */
       },
-
       // 组件库
       components: {
         components: ["Badge", "BiliBili", "VidStack"],
