@@ -172,7 +172,7 @@ export default hopeTheme(
 
       // Algolia 全文搜索：需要自己设置爬虫并生成下方配置，如不会自己设置，启用下方本地搜索
       docsearch: {
-        indexName: "default",
+        indexName: "crawler_blog",
         appId: "JLB2K3TZCT",
         apiKey: "3aa0c61d7b87d0c30f5561aea6b5fe80",
       },
