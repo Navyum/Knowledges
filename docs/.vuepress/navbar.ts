@@ -19,22 +19,22 @@ export default navbar([
         text: "个人思考",
         icon: "icon-park-outline:thinking-problem",
         link: "/个人思考/"
-      }, 
+      },
+      {
+        text: "我的世界",
+        icon: "streamline-plump:world-remix",
+        link: "/我的世界/"
+      },
     ] 
   },
-  {
-    text: "我的世界",
-    icon: "streamline-plump:world-remix",
-    link: "/我的世界/"
-  },
   { 
-    text: "读书笔记", 
+    text: "读书", 
     icon: "fa6-brands:readme", 
     link: "https://www.notion.so/navyum/1c42fcd1fefa4e948d8514761b2ab8c7?v=0ca5dc6ee29e4c2787dbd0f1055b4ed0" 
   },
   {
     text: "联系",
-    icon: "fa6-solid:toolbox",
+    icon: "hugeicons:contact",
     link: "/intro"
   }
 ]);
