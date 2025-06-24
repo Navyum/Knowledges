@@ -33,7 +33,7 @@ export default sidebar({
         {
           text: "算法",
           prefix: "算法/",
-          icon: "arcticons:algorithms",
+          icon: "hugeicons:algorithm",
           collapsible: true,
           children: "structure",
         },
@@ -114,7 +114,7 @@ export default sidebar({
   ],
   
 
-  "/READMEBAK/": [
+  "": [
     // 指定显示页面
 
     {
@@ -214,6 +214,6 @@ export default sidebar({
       children: "structure",
     }
 
-  ]
+  ],
 
 });

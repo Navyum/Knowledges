@@ -34,7 +34,12 @@ export default navbar([
   },
   {
     text: "联系",
-    icon: "hugeicons:contact",
+    icon: "streamline-plump:contact-phonebook-solid",
     link: "/intro"
-  }
+  },
+  {
+    text: "导航",
+    icon: "streamline-plump:world-remix",
+    link: "/map"
+  },
 ]);

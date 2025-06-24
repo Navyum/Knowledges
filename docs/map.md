@@ -1,15 +1,6 @@
 ---
-#博客首页设置：https://theme-hope.vuejs.press/zh/guide/blog/home.html
-home: true
-
-icon: "/logo.svg"
-title: 互联网爱好者
-#heroImage: /logo.svg
-heroText: 互联网爱好者
-tagline: 勇往直前
-bgImage: https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05
-heroFullScreen: false
-
+# Blog homepage settings: https://theme-hope.vuejs.press/zh/guide/blog/home.html
+home: false
 ---
 
 <p align="center">
@@ -33,9 +24,8 @@ heroFullScreen: false
 - [🤖 大模型LLM](大模型LLM/00.概念/01.Transformer.md)
 
 ## Job Interview
-- [❌ 编程实战 TODO](/README)
 - [👩 面试经验](面试经验/Ready4Interview.md)
-- [🤔 个人思考](个人思考/职业规划.md)
+- [🤔 个人思考](个人思考/如何做职业规划.md)
 
 ## Effective tools
 - [🔧 工具](工具武器库/electron.md)
