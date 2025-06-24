@@ -171,19 +171,19 @@ export default hopeTheme(
       },
 
       // Algolia 全文搜索：需要自己设置爬虫并生成下方配置，如不会自己设置，启用下方本地搜索
-      /* 
       docsearch: {
-        indexName: "<INDEX_NAME>",
-        appId: "<APP_ID>",
-        apiKey: "<API_KEY>",
+        indexName: "default",
+        appId: "JLB2K3TZCT",
+        apiKey: "3aa0c61d7b87d0c30f5561aea6b5fe80",
       },
-      */
 
       // 本地搜索，和上方二选一
+      /*
       slimsearch: {
         // 索引全部内容
         indexContent: true,
       },
+      */
 
       feed: {
         atom: true,
