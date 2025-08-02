@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknavyum_blog=self.webpackChunknavyum_blog||[]).push([[73628],{73628:(e,a,s)=>{s.d(a,{createInfoServices:()=>u.b});var u=s(98564);s(56317),s(46735),s(22890),s(57170),s(29400)}}]);

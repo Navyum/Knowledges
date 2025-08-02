@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://myblog.camscanner.top/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://myblog.camscanner.top/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>Navyum&amp;apos;s Blog</title>
+    <link>https://myblog.camscanner.top/</link>
+    <description>自我提升笔记，记录学习成长的经历；互联网摸爬滚打总结，系统性整理知识</description>
+    <language>zh-CN</language>
+    <pubDate>Sat, 02 Aug 2025 07:36:57 GMT</pubDate>
+    <lastBuildDate>Sat, 02 Aug 2025 07:36:57 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>LLM</category>
+    <category>个人思考</category>
+    <category>参考资料</category>
+    <category>AI</category>
+    <category>职业规划</category>
+    <item>
+      <title></title>
+      <link>https://myblog.camscanner.top/map.html</link>
+      <guid>https://myblog.camscanner.top/map.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml"></source>
+      <description>Navyum&amp;apos;s blog logo 学习文档 Computer Science 💻 计算机网络 Large Language Model Job Interview Effective tools Reading Books 📚 读书笔记</description>
+      <pubDate>Sun, 15 Jun 2025 10:30:52 GMT</pubDate>
+      <content:encoded><![CDATA[<p align="center">
+  <img src="/logo.svg" alt="Navyum's blog logo" width="100" height="auto">
+</p>
+<h1 align="center">学习文档</h1>
+<h2>Computer Science</h2>
+<ul>
+<li><a href="%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C">💻 计算机网络</a></li>
+<li><a href="/%E7%AE%97%E6%B3%95%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/0.%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84.html" target="_blank">⛵️ 算法数据结构</a></li>
+<li><a href="/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/golang/golang%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html" target="_blank">📑 编程语言</a></li>
+<li><a href="/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/0.%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84.html" target="_blank">📁 常用软件</a>
+<ul>
+<li><a href="/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/%E6%95%B0%E6%8D%AE%E5%BA%93/mysql/01.Mysql%E9%80%BB%E8%BE%91%E6%9E%B6%E6%9E%84.html" target="_blank">Mysql</a></li>
+<li><a href="/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/%E6%95%B0%E6%8D%AE%E5%BA%93/redis/01.%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E3%80%81%E5%BA%95%E5%B1%82%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html" target="_blank">Redis</a></li>
+<li><a href="/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/%E5%AE%B9%E5%99%A8%E5%8C%96/docker.html" target="_blank">Docker</a></li>
+</ul>
+</li>
+<li><a href="/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/02.%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%8E%E6%9E%B6%E6%9E%84/01.%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BA%B2.html" target="_blank">🌡️ 架构设计</a></li>
+</ul>
+<h2>Large Language Model</h2>
+<ul>
+<li><a href="/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/00.%E6%A6%82%E5%BF%B5/01.Transformer.html" target="_blank">🤖 大模型LLM</a></li>
+</ul>
+<h2>Job Interview</h2>
+<ul>
+<li><a href="/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C/Ready4Interview.html" target="_blank">👩 面试经验</a></li>
+<li><a href="/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E5%81%9A%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92.html" target="_blank">🤔 个人思考</a></li>
+</ul>
+<h2>Effective tools</h2>
+<ul>
+<li><a href="/%E5%B7%A5%E5%85%B7%E6%AD%A6%E5%99%A8%E5%BA%93/electron.html" target="_blank">🔧 工具</a></li>
+</ul>
+<h2>Reading Books</h2>
+<ul>
+<li><a href="https://www.notion.so/navyum/1c42fcd1fefa4e948d8514761b2ab8c7?v=0ca5dc6ee29e4c2787dbd0f1055b4ed0" target="_blank" rel="noopener noreferrer">📚 读书笔记</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>langchain</title>
+      <link>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/01.%E6%A1%86%E6%9E%B6/langchain.html</link>
+      <guid>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/01.%E6%A1%86%E6%9E%B6/langchain.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">langchain</source>
+      <category>LLM</category>
+      <pubDate>Tue, 24 Jun 2025 10:18:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>eino</title>
+      <link>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/01.%E6%A1%86%E6%9E%B6/eino.html</link>
+      <guid>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/01.%E6%A1%86%E6%9E%B6/eino.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">eino</source>
+      <category>LLM</category>
+      <pubDate>Tue, 24 Jun 2025 10:18:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何事故复盘</title>
+      <link>https://myblog.camscanner.top/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E4%BA%8B%E6%95%85%E5%A4%8D%E7%9B%98.html</link>
+      <guid>https://myblog.camscanner.top/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E4%BA%8B%E6%95%85%E5%A4%8D%E7%9B%98.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">如何事故复盘</source>
+      <description>事故复盘体系化方案 事故复盘时间线流程图 复盘流程设计与具体方法 一、复盘前准备阶段 信息收集与整理（组织者核心工作） 具体方法： 建立事故档案模板 核心提问清单（5W2H） What（发生了什么）： &amp;quot;请描述一下事故的具体表现是什么？&amp;quot; &amp;quot;用户看到了什么异常现象？&amp;quot; &amp;quot;系统日志显示了什么错误信息？&amp;quot; When（时间节点）： &amp;quot;事故最早出现的时间点是什...</description>
+      <category>个人思考</category>
+      <pubDate>Fri, 20 Jun 2025 15:20:26 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>事故复盘时间线流程图</h2>
+<h2>复盘流程设计与具体方法</h2>
+<h3>一、复盘前准备阶段</h3>
+<h4>信息收集与整理（组织者核心工作）</h4>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>建立事故档案模板</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>事故基本信息表：</span></span>
+<span class="line"><span>- 事故编号：[自动生成]</span></span>
+<span class="line"><span>- 发生时间：[精确到分钟]</span></span>
+<span class="line"><span>- 发现时间：[精确到分钟]</span></span>
+<span class="line"><span>- 影响范围：[具体业务模块]</span></span>
+<span class="line"><span>- 影响时长：[分钟/小时]</span></span>
+<span class="line"><span>- 涉及人员：[角色+姓名]</span></span>
+<span class="line"><span>- 业务影响：[具体指标]</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>核心提问清单（5W2H）</strong></p>
+<ul>
+<li>
+<p><strong>What（发生了什么）</strong>：</p>
+<ul>
+<li>"请描述一下事故的具体表现是什么？"</li>
+<li>"用户看到了什么异常现象？"</li>
+<li>"系统日志显示了什么错误信息？"</li>
+</ul>
+</li>
+<li>
+<p><strong>When（时间节点）</strong>：</p>
+<ul>
+<li>"事故最早出现的时间点是什么时候？"</li>
+<li>"什么时候被发现的？"</li>
+<li>"从发现到解决用了多长时间？"</li>
+<li>"各个处理阶段的时间节点是什么？"</li>
+</ul>
+</li>
+<li>
+<p><strong>Where（影响范围）</strong>：</p>
+<ul>
+<li>"哪些系统/模块受到了影响？"</li>
+<li>"影响的地理区域或用户群体是什么？"</li>
+<li>"依赖的服务是否也出现了问题？"</li>
+</ul>
+</li>
+<li>
+<p><strong>Who（相关人员）</strong>：</p>
+<ul>
+<li>"事故处理过程中涉及了哪些角色？"</li>
+<li>"每个角色的具体职责是什么？"</li>
+<li>"决策链上的关键人物是谁？"</li>
+</ul>
+</li>
+<li>
+<p><strong>Why（根本原因）</strong>：</p>
+<ul>
+<li>"直接触发事故的原因是什么？"</li>
+<li>"为什么会出现这个触发条件？"</li>
+<li>"更深层次的系统性原因是什么？"</li>
+</ul>
+</li>
+<li>
+<p><strong>How（发生过程）</strong>：</p>
+<ul>
+<li>"事故是如何逐步演化的？"</li>
+<li>"处理过程中采取了哪些措施？"</li>
+<li>"哪些措施有效，哪些无效？"</li>
+</ul>
+</li>
+<li>
+<p><strong>How Much（影响程度）</strong>：</p>
+<ul>
+<li>"对业务的具体影响是什么？"</li>
+<li>"用户投诉数量是多少？"</li>
+<li>"经济损失如何量化？"</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>参与者准备与氛围营造</h4>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>参与者邀请策略</strong></p>
+<ul>
+<li>必须参与者：直接责任人、技术负责人、业务负责人</li>
+<li>建议参与者：相关开发、测试、运维人员</li>
+<li>可选参与者：产品经理、项目经理</li>
+</ul>
+</li>
+<li>
+<p><strong>会议前沟通技巧</strong></p>
+<ul>
+<li>提前1-2天发送事故时间线给所有参与者</li>
+<li>单独与直接责任人沟通，缓解心理压力</li>
+<li>明确会议目标："学习改进，非指责追责"</li>
+<li>强调保密原则，避免信息外泄</li>
+</ul>
+</li>
+</ul>
+<h3>二、复盘会议执行阶段</h3>
+<h4>开场阶段（5分钟）- 建立基调</h4>
+<p><strong>核心要点：</strong></p>
+<ol>
+<li>明确会议目标和原则</li>
+<li>营造安全开放的讨论氛围</li>
+<li>建立参与规则和期望</li>
+</ol>
+<p><strong>关键技巧：</strong></p>
+<ol>
+<li>使用积极正面的开场白，避免紧张氛围</li>
+<li>主动承认不足，树立榜样作用</li>
+<li>设置安全机制，保护参与者心理安全</li>
+</ol>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>开场白模板</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>"大家好，今天我们召开XX事故的复盘会议。</span></span>
+<span class="line"><span>首先明确一下，这次会议的目的是：</span></span>
+<span class="line"><span>1. 全面了解事故的来龙去脉</span></span>
+<span class="line"><span>2. 找出根本原因和系统性因素</span></span>
+<span class="line"><span>3. 制定具体的改进措施</span></span>
+<span class="line"><span>4. 避免类似事故再次发生</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>重要原则：</span></span>
+<span class="line"><span>- 对事不对人，聚焦问题本身</span></span>
+<span class="line"><span>- 鼓励开放讨论，不要有顾虑</span></span>
+<span class="line"><span>- 我们的目标是学习和改进"</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>建立参与规则</strong></p>
+<ul>
+<li>明确"每个人都有发言权，没有对错之分"</li>
+<li>设置"举手发言"或"轮流发言"机制</li>
+<li>鼓励"即使想法不成熟也要说出来"</li>
+<li>设置"安全词"，任何人感到不适可以喊停</li>
+</ul>
+</li>
+</ul>
+<h4>事实回顾阶段（15分钟）- 建立共同认知</h4>
+<p><strong>核心要点：</strong></p>
+<ol>
+<li>按时间线梳理事故全过程</li>
+<li>确认关键节点和决策点</li>
+<li>识别信息缺失和不确定点</li>
+</ol>
+<p><strong>关键技巧：</strong></p>
+<ol>
+<li>使用可视化时间轴，让信息更直观</li>
+<li>轮流发言机制，确保全员参与</li>
+<li>主动询问和验证，避免信息遗漏</li>
+</ol>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>时间线梳理法</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>在白板/屏幕上绘制时间轴：</span></span>
+<span class="line"><span>T-0: 事故发生</span></span>
+<span class="line"><span>T+5: 首次发现</span></span>
+<span class="line"><span>T+15: 初步分析</span></span>
+<span class="line"><span>T+30: 开始处理</span></span>
+<span class="line"><span>T+60: 问题解决</span></span>
+<span class="line"><span>T+120: 服务恢复</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>轮流发言机制</strong></p>
+<ul>
+<li>按座位顺序让每个人补充时间线上的细节</li>
+<li>使用"张三，你能补充一下T+15这个时间点发生了什么吗？"</li>
+<li>鼓励"还有谁记得这个时间点的其他细节？"</li>
+</ul>
+</li>
+<li>
+<p><strong>信息补充技巧</strong></p>
+<ul>
+<li>主动询问："李四，你当时在做什么？"</li>
+<li>鼓励补充："王五，你觉得还有什么遗漏的吗？"</li>
+<li>验证信息："大家觉得这个时间线准确吗？"</li>
+</ul>
+</li>
+<li>
+<p><strong>打破沉默的方法</strong></p>
+<ul>
+<li>使用"让我们听听不同的声音"</li>
+<li>鼓励"即使是不确定的信息也请说出来"</li>
+<li>设置"每人至少说一句话"的规则</li>
+</ul>
+</li>
+</ul>
+<h4>深度分析阶段（30分钟）- 挖掘根本原因</h4>
+<p><strong>核心要点：</strong></p>
+<ol>
+<li>使用5Why分析法挖掘根本原因</li>
+<li>从技术、流程、管理三个层面分析</li>
+<li>识别系统性因素和潜在风险</li>
+</ol>
+<p><strong>关键技巧：</strong></p>
+<ol>
+<li>分组讨论，激发不同角度的思考</li>
+<li>角色扮演，从不同视角分析问题</li>
+<li>头脑风暴，鼓励创新和突破性想法</li>
+</ol>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>5Why分析法实操</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>主持人："系统为什么会宕机？"</span></span>
+<span class="line"><span>回答："数据库连接超时"</span></span>
+<span class="line"><span>主持人："为什么连接会超时？"</span></span>
+<span class="line"><span>回答："连接池配置不合理"</span></span>
+<span class="line"><span>主持人："为什么配置不合理？"</span></span>
+<span class="line"><span>回答："没有进行压力测试"</span></span>
+<span class="line"><span>主持人："为什么没有压力测试？"</span></span>
+<span class="line"><span>回答："时间不够"</span></span>
+<span class="line"><span>主持人："为什么时间不够？"</span></span>
+<span class="line"><span>回答："项目排期太紧"</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>分组讨论法</strong></p>
+<ul>
+<li>将参会者分为3-4人小组</li>
+<li>每个小组负责一个分析角度（技术/流程/管理）</li>
+<li>5分钟后各组汇报讨论结果</li>
+<li>鼓励组内不同意见的碰撞</li>
+</ul>
+</li>
+<li>
+<p><strong>角色扮演法</strong></p>
+<ul>
+<li>让不同角色的人从自己角度分析问题</li>
+<li>"作为开发，你觉得问题出在哪里？"</li>
+<li>"作为运维，你的看法是什么？"</li>
+<li>"作为测试，你觉得哪里可以改进？"</li>
+</ul>
+</li>
+<li>
+<p><strong>系统性分析框架</strong></p>
+<ul>
+<li>
+<p><strong>技术层面</strong>：</p>
+<ul>
+<li>"这个技术方案的选择是否合理？"</li>
+<li>"有没有更好的技术方案？"</li>
+<li>"监控和报警是否覆盖了关键点？"</li>
+</ul>
+</li>
+<li>
+<p><strong>流程层面</strong>：</p>
+<ul>
+<li>"变更流程是否规范？"</li>
+<li>"审批环节是否到位？"</li>
+<li>"回滚机制是否有效？"</li>
+</ul>
+</li>
+<li>
+<p><strong>管理层面</strong>：</p>
+<ul>
+<li>"资源配置是否合理？"</li>
+<li>"人员技能是否匹配？"</li>
+<li>"时间安排是否充足？"</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>头脑风暴技巧</strong></p>
+<ul>
+<li>使用"不评判"原则，鼓励所有想法</li>
+<li>设置"每人至少提3个想法"的目标</li>
+<li>使用"如果...会怎样？"的假设性问题</li>
+<li>鼓励"看似不相关的想法也要说出来"</li>
+</ul>
+</li>
+</ul>
+<h4>改进讨论阶段（20分钟）- 制定行动计划</h4>
+<p><strong>核心要点：</strong></p>
+<ol>
+<li>制定短期、中期、长期改进措施</li>
+<li>责任人主动提出建议和认领任务</li>
+<li>建立效果评估和跟踪机制</li>
+</ol>
+<p><strong>关键技巧：</strong></p>
+<ol>
+<li>主动认领机制，让责任人自愿承担任务</li>
+<li>创意激发法，鼓励创新和突破性方案</li>
+<li>责任驱动法，基于责任范围提出改进建议</li>
+</ol>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>改进措施分类法</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>短期措施（1周内）：</span></span>
+<span class="line"><span>- 具体任务1（负责人：，截止时间：）</span></span>
+<span class="line"><span>- 具体任务2（负责人：，截止时间：）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>中期措施（1个月内）：</span></span>
+<span class="line"><span>- 具体任务1（负责人：，截止时间：）</span></span>
+<span class="line"><span>- 具体任务2（负责人：，截止时间：）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>长期措施（3个月内）：</span></span>
+<span class="line"><span>- 具体任务1（负责人：，截止时间：）</span></span>
+<span class="line"><span>- 具体任务2（负责人：，截止时间：）</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>主动认领机制</strong></p>
+<ul>
+<li>使用"谁愿意负责这个任务？"</li>
+<li>鼓励"即使不擅长也可以尝试"</li>
+<li>设置"每人至少认领一个任务"的规则</li>
+<li>允许"结对子"共同负责</li>
+</ul>
+</li>
+<li>
+<p><strong>责任驱动建议法</strong></p>
+<ul>
+<li>让每个角色基于自己的责任范围提出改进建议</li>
+<li>"作为开发，你觉得代码质量方面需要哪些改进？"</li>
+<li>"作为测试，你觉得测试流程上有什么可以优化的？"</li>
+<li>"作为运维，你觉得监控和部署方面需要哪些改进？"</li>
+</ul>
+</li>
+<li>
+<p><strong>创意激发法</strong></p>
+<ul>
+<li>使用"如果给你无限资源，你会怎么做？"</li>
+<li>鼓励"天马行空的想法"</li>
+<li>设置"最创新方案"奖励</li>
+<li>允许"看似不切实际"的建议</li>
+</ul>
+</li>
+<li>
+<p><strong>建议收集和整理</strong></p>
+<ul>
+<li>让每个人先写下自己的建议（3分钟）</li>
+<li>轮流分享建议，其他人可以补充</li>
+<li>对相似建议进行合并和优化</li>
+<li>按优先级排序，确定最终方案</li>
+</ul>
+</li>
+<li>
+<p><strong>效果评估标准</strong></p>
+<ul>
+<li>量化指标：响应时间、错误率、用户满意度</li>
+<li>定性指标：团队能力提升、流程优化程度</li>
+<li>验证方法：测试、演练、监控</li>
+</ul>
+</li>
+</ul>
+<h4>总结阶段（10分钟）- 固化成果</h4>
+<p><strong>核心要点：</strong></p>
+<ol>
+<li>总结关键收获和重要发现</li>
+<li>确认行动项和责任人</li>
+<li>建立后续跟踪和反馈机制</li>
+</ol>
+<p><strong>关键技巧：</strong></p>
+<ol>
+<li>轮流总结法，让每个人分享收获</li>
+<li>承诺确认法，确保责任明确</li>
+<li>积极结束，建立团队信心</li>
+</ol>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>总结模板</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>今天的关键收获：</span></span>
+<span class="line"><span>1. 技术层面：[具体发现]</span></span>
+<span class="line"><span>2. 流程层面：[具体发现]</span></span>
+<span class="line"><span>3. 管理层面：[具体发现]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>下一步行动：</span></span>
+<span class="line"><span>1. [具体任务] - 负责人：[姓名] - 截止时间：[日期]</span></span>
+<span class="line"><span>2. [具体任务] - 负责人：[姓名] - 截止时间：[日期]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>下次复盘安排：</span></span>
+<span class="line"><span>- 时间：[具体时间]</span></span>
+<span class="line"><span>- 重点：[检查改进措施落实情况]</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>轮流总结法</strong></p>
+<ul>
+<li>让每个人用一句话总结今天的收获</li>
+<li>使用"今天你最大的收获是什么？"</li>
+<li>鼓励"即使是很小的发现也要说出来"</li>
+<li>记录每个人的关键收获</li>
+</ul>
+</li>
+<li>
+<p><strong>承诺确认法</strong></p>
+<ul>
+<li>让每个人确认自己的行动项</li>
+<li>使用"你能重复一下你的任务吗？"</li>
+<li>鼓励"如果有困难，现在就说出来"</li>
+<li>建立"互相支持"的氛围</li>
+</ul>
+</li>
+<li>
+<p><strong>反馈收集法</strong></p>
+<ul>
+<li>让每个人给这次复盘打分（1-10分）</li>
+<li>收集"下次可以改进的地方"</li>
+<li>鼓励"即使是不满也要说出来"</li>
+<li>承诺"我们会认真考虑每一条建议"</li>
+</ul>
+</li>
+<li>
+<p><strong>结束仪式</strong></p>
+<ul>
+<li>让每个人说一句鼓励的话</li>
+<li>使用"让我们一起努力，避免类似问题"</li>
+<li>建立"我们是一个团队"的认同感</li>
+<li>以积极正面的方式结束会议</li>
+</ul>
+</li>
+</ul>
+<h3>三、 复盘后跟进阶段</h3>
+<h4>行动项跟踪（组织者核心工作）</h4>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li><strong>建立跟踪机制</strong><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>行动项跟踪表：</span></span>
+<span class="line"><span>| 任务 | 负责人 | 截止时间 | 当前状态 | 完成度 | 备注 |</span></span>
+<span class="line"><span>|</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>06.参考资料</title>
+      <link>https://myblog.camscanner.top/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/06.%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.html</link>
+      <guid>https://myblog.camscanner.top/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/06.%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">06.参考资料</source>
+      <description>必看耗子叔 极客时间 必读 12-factors coolshell every-architect-should-study-conway-law https://xie.infoq.cn/article/633911603a048b9f19c81cf29 eventually_consistent.html patterns soa-patterns</description>
+      <category>参考资料</category>
+      <pubDate>Tue, 17 Jun 2025 14:46:44 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://freegeektime.com/100002201/10604/" target="_blank" rel="noopener noreferrer">必看耗子叔</a></li>
+<li><a href="https://freegeektime.com/posts/100046101/" target="_blank" rel="noopener noreferrer">极客时间</a></li>
+<li><a href="https://12factor.net/zh_cn/" target="_blank" rel="noopener noreferrer">必读 12-factors</a></li>
+<li><a href="https://coolshell.cn/articles/11609.html" target="_blank" rel="noopener noreferrer">coolshell</a></li>
+<li><a href="https://www.infoq.cn/article/every-architect-should-study-conway-law" target="_blank" rel="noopener noreferrer">every-architect-should-study-conway-law</a></li>
+<li><a href="https://xie.infoq.cn/article/633911603a048b9f19c81cf29" target="_blank" rel="noopener noreferrer">https://xie.infoq.cn/article/633911603a048b9f19c81cf29</a></li>
+<li><a href="https://www.allthingsdistributed.com/2008/12/eventually_consistent.html" target="_blank" rel="noopener noreferrer">eventually_consistent.html</a></li>
+<li><a href="https://microservices.io/patterns/index.html" target="_blank" rel="noopener noreferrer">patterns</a></li>
+<li><a href="https://patterns.arcitura.com/soa-patterns" target="_blank" rel="noopener noreferrer">soa-patterns</a></li>
+</ul>
+<p>实践类：</p>
+<ul>
+<li>58 同城沈剑：好的架构源于不停地衍变，而非设计</li>
+<li>宜人贷系统架构–高并发下的进化之路</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>04.Models</title>
+      <link>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/00.%E6%A6%82%E5%BF%B5/04.Models.html</link>
+      <guid>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/00.%E6%A6%82%E5%BF%B5/04.Models.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">04.Models</source>
+      <description>ViT（Google 图像分类模型） ViT是一种没有 CNN（卷积神经网络）的图像分类模型（Vision Transformer），从图像分类任务中消除了 CNN ViT 将图像拆分为一系列图像补丁嵌入与位置编码混合，并将它们馈送到 Transformer 编码器中。ViT 有一个分类头 （MLP - 多层感知），它产生最终的预测 Img 注意力可视...</description>
+      <category>LLM</category>
+      <category>AI</category>
+      <pubDate>Tue, 17 Jun 2025 14:32:30 GMT</pubDate>
+      <content:encoded><![CDATA[<h3>ViT（Google 图像分类模型）</h3>
+<ul>
+<li>ViT是一种没有 CNN（卷积神经网络）的图像分类模型（Vision Transformer），从图像分类任务中消除了 CNN</li>
+<li>ViT 将图像拆分为一系列图像补丁嵌入与位置编码混合，并将它们馈送到 Transformer 编码器中。ViT 有一个分类头 （MLP - 多层感知），它产生最终的预测
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/3f10b60a7e8a4b98fece3f16f2e3a2f9.png" alt="Img" loading="lazy"></li>
+<li>注意力可视化
+<ul>
+<li>ViT 可以捕捉图像中的主要对象，忽略图像中的噪声</li>
+</ul>
+</li>
+<li>计算复杂度与输入图像大小呈<strong>二次方关系</strong></li>
+</ul>
+<h3>Swin Transformer（Microsoft 图像分类、对象检测、语义分割等视觉任务模型）</h3>
+<ul>
+<li>Shifted windows，它为 Transformer 提供了分层视野</li>
+<li>Swin Transformer 从小尺寸的补丁开始，逐渐将相邻的补丁合并到更深的 Transformer 层中，从而构建分层特征图
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/883ed585110507bf48ceeb0738167620.png" alt="Img" loading="lazy"></li>
+<li>计算复杂度与输入图像大小呈<strong>线性关系</strong>。每个窗口中的补丁数量在任何级别都是相同的。最终，一个本地窗口用 16 个功能补丁覆盖整个映像。</li>
+<li>Swin Transformer 的补丁合并通过连接 4 个 （= 2 x 2） 相邻补丁的特征并应用线性层来减少特征维度，从而减少补丁的数量</li>
+<li>MSA 代表多头自我注意：
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/a286804e56372a6dfbfab218d6e72ee3.png" alt="Img" loading="lazy">
+使用图像色块向左上角的循环移动，然后应用遮罩机制来限制相邻色块内的自我注意。此外，它使用反向循环换档来覆盖其他区域</li>
+</ul>
+<h3>CLIP（OpenAI 对比语言图像预训练模型）</h3>
+<ul>
+<li>CLIP 即对比语言图像预训练（Contrastive Language Image Pre-training）。</li>
+<li>通过对比学习，理解事物之间的差异，将特定的视觉特征与相应的描述性语言相关联，实现从文本生成图像。是从自然语言领域到视觉领域的桥梁，弥合语言和视觉之间差距方面的灵活性和潜力。</li>
+<li>OpenAI 的 CLIP 模型同时训练图像编码器和文本编码器，以准确预测共享嵌入空间内（图像、文本）的正确配对，从而弥合视觉理解和自然语言理解之间的差距
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/d1aae62fffba675c9dfd2a78a5fcbe0e.png" alt="Img" loading="lazy"></li>
+</ul>
+<h2>数据压缩和生成：</h2>
+<h3>VAE（变分自动编码器）</h3>
+<ul>
+<li>VAE 通过识别和学习训练数据集中的隐藏特征并将其用作生成新数据，可以生成新的输出</li>
+<li>有向概率模型，即贝叶斯网络。利用有向无环图 （DAG） 来说明各种随机变量之间的关系和依赖关系。
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/c911644e66069245662d3ef9306df276.png" alt="Img" loading="lazy">
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/de3b3d6189e8e5f7560596c5170f317e.png" alt="Img" loading="lazy"></li>
+<li>说明：
+编码器负责对条件概率分布 P（z|x） 进行建模，因为它采用输入图像 x 并产生潜在表示 z。解码器负责对条件概率分布 P（x|z） 进行建模，因为它采用潜在变量 z 并重建靠近输入图像 x 的图像 x'</li>
+</ul>
+<h2>长文本：</h2>
+<h3>Longformer</h3>
+<ul>
+<li>引入新的注意力机制：
+<ul>
+<li>背景：计算复杂度随序列长度呈二次方增加，这使得处理长序列的成本非常高。我们可以将一个长序列划分为更小的块，但这样我们将失去序列的全局上下文，从而降低语言任务的质量</li>
+<li>Longformer 与序列长度呈线性关系，并且可以处理数千个令牌，这要归功于它的注意力模式。</li>
+<li>Longfomer 不是完全的全局注意力，而是使用不同注意力模式的组合
+<ul>
+<li>
+<p>Sliding Window Attention 推拉窗注意事项
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/faf9abfce6195ac5af65fcf80e8b8c60.png" alt="Img" loading="lazy"></p>
+</li>
+<li>
+<p>Dilated Sliding Window 扩张推拉窗
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/178be1055d3e8738db9928eab11f80fa.png" alt="Img" loading="lazy"></p>
+</li>
+<li>
+<p>Global + Sliding Window 全局+ 滑动窗口
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/dec3a6bdcef0f15c7568955e11bcc45b.png" alt="Img" loading="lazy">
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/c4eda387c3aea582adba642da6a3900f.png" alt="Img" loading="lazy"></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>参考：</h3>
+<p><a href="https://arxiv.org/pdf/2010.11929" target="_blank" rel="noopener noreferrer">ViT</a>
+<a href="https://arxiv.org/pdf/2103.14030" target="_blank" rel="noopener noreferrer">Swin</a>
+<a href="https://arxiv.org/pdf/1312.6114" target="_blank" rel="noopener noreferrer">VAE</a>
+<a href="https://arxiv.org/pdf/2004.05150" target="_blank" rel="noopener noreferrer">Longformer</a></p>
+]]></content:encoded>
+      <enclosure url="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/3f10b60a7e8a4b98fece3f16f2e3a2f9.png" type="image/png"/>
+    </item>
+    <item>
+      <title>03.Prompt</title>
+      <link>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/00.%E6%A6%82%E5%BF%B5/03.Prompt.html</link>
+      <guid>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/00.%E6%A6%82%E5%BF%B5/03.Prompt.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">03.Prompt</source>
+      <description>结构化Prompt： LangGPT的写法： CO-STAR的写法： 其他Prompt提示词框架： ICIO框架（比较常见） CRISPE框架 BROKE框架 CREATE框架 TAG框架 RTF框架 ROSES框架 APE框架 RACE框架 TRACE框架 终极版Prompt： Prompt 提示技巧： Zero-shot（零样本） One-shot...</description>
+      <category>LLM</category>
+      <category>AI</category>
+      <pubDate>Tue, 17 Jun 2025 14:32:02 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>结构化Prompt：</h2>
+<h3>LangGPT的写法：</h3>
+<div class="language-markdown line-numbers-mode" data-highlighter="shiki" data-ext="markdown" data-title="markdown" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    # Role: &lt;name&gt; : 指定角色会让 GPT 聚焦在对应领域进行信息输出</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    ## Profile author/version/description : Credit 和 迭代版本记录</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    ## Goals: 一句话描述 Prompt 目标, 让 GPT Attention 聚焦起来</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    ## Constrains: 描述限制条件, 其实是在帮 GPT 进行剪枝, 减少不必要分支的计算</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    ## Skills: 描述技能项, 强化对应领域的信息权重</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    ## Workflow: 重点中的重点, 你希望 Prompt 按什么方式来对话和输出</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    # Initialization: 冷启动时的对白, 也是一个强调需注意重点的机会</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>CO-STAR的写法：</h3>
+<div class="language-markdown line-numbers-mode" data-highlighter="shiki" data-ext="markdown" data-title="markdown" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    C: Context: Provide background and information on the task</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    C：上下文： 提供有关任务的背景和信息</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    O: Objective: Define the task that you want the LLM to perform</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    O： 目标：定义您希望 LLM 执行的任务</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    S: Style: Specify the writing style you want the LLM to use</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    S：风格： 指定您希望 LLM 使用的写作风格</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    T: Tone: Set the attitude and tone of the response</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    T：色调： 设定响应的态度和语气</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    A: Audience: Identify who the response is for</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    A： 受众： 确定响应的对象</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    R: Response: Provide the response format and style</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    R：响应： 提供响应格式和样式</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>其他Prompt提示词框架：</h3>
+<ul>
+<li>ICIO框架（比较常见）<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>  Instruction 指令：执行的具体任务。</span></span>
+<span class="line"><span>  Context 背景信息：提供背景信息，以引导模型生成更符合需求的回复。</span></span>
+<span class="line"><span>  Input Data 输入数据：需要处理的数据。</span></span>
+<span class="line"><span>  Output Indicator 输出引导：告知所需输出的类型或风格。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>CRISPE框架<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>  Capacity and Role&nbsp;能力和角色：应该扮演的角色（或多个角色）</span></span>
+<span class="line"><span>  Insight 洞察：提供幕后洞察力、背景信息和上下文。</span></span>
+<span class="line"><span>  Statement 声明：简洁明了地说明希望完成的任务</span></span>
+<span class="line"><span>  Personality 个性：回应的风格、个性或方式</span></span>
+<span class="line"><span>  Experiment 实验：要求提供多个回答示例</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>BROKE框架<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>  Background&nbsp;背景：提供充足的背景信息。</span></span>
+<span class="line"><span>  Role 角色：明确扮演的角色</span></span>
+<span class="line"><span>  Objectives 目标：描述需要实现的目标。</span></span>
+<span class="line"><span>  Key Result 关键结果：期望的具体效果，以便对输出进行试验和调整。</span></span>
+<span class="line"><span>  Evolve&nbsp;试验并改进：利用【a.改进输入；b.改进答案；c.重新生成。】三种自由组合的改进，来优化回答</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>CREATE框架<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>  Clarity&nbsp;清晰度：明确界定提示的任务或意图。</span></span>
+<span class="line"><span>  Relevant info 相关信息：提供相关细节，包括具体的关键词和事实、语气、受众、格式和结构。</span></span>
+<span class="line"><span>  Examples 实例：使用提示中的示例为输出提供背景和方向。</span></span>
+<span class="line"><span>  Avoid ambiguity 避免含糊不清：重点关注关键信息，删除提示中不必要的细节。</span></span>
+<span class="line"><span>  Tinker&nbsp;迭代、修补：通过多次迭代测试和完善提示。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>TAG框架<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>  Task 任务：定义具体任务。 </span></span>
+<span class="line"><span>  Action 行动：描述需要做什么。 </span></span>
+<span class="line"><span>  Goal 目标：解释最终目标。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>RTF框架<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>  Role 角色：指定 ChatGPT 的角色。 </span></span>
+<span class="line"><span>  Task 任务：定义具体任务。 </span></span>
+<span class="line"><span>  Format 格式：定义您想要的答案的方式。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>ROSES框架<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>  Role 角色：指定 ChatGPT 的角色。 </span></span>
+<span class="line"><span>  Objective 目标：说明目的或目标。 </span></span>
+<span class="line"><span>  Scenario 场景：描述情况。 </span></span>
+<span class="line"><span>  Solution 解决方案：定义期望的结果。 </span></span>
+<span class="line"><span>  Steps 步骤：询问达成解决方案所需的行动。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>APE框架<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>  Action 行动：定义要完成的工作或活动。 </span></span>
+<span class="line"><span>  Purpose 目的：讨论意图或目标。 </span></span>
+<span class="line"><span>  Expectation 期望：说明期望的结果。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>RACE框架<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>  背景：设置讨论的舞台或背景。 </span></span>
+<span class="line"><span>  行动：描述您想要做什么。 </span></span>
+<span class="line"><span>  结果：描述期望的结果。 </span></span>
+<span class="line"><span>  示例：举一个例子来说明你的观点。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>TRACE框架<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>  Task 任务：定义具体任务。 </span></span>
+<span class="line"><span>  Request 请求：描述您的请求。 </span></span>
+<span class="line"><span>  Action 行动：说明您需要采取的行动。 </span></span>
+<span class="line"><span>  Context 语境：提供背景或情况。 </span></span>
+<span class="line"><span>  Example 示例：举一个例子来说明你的观点。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ul>
+<h3>终极版Prompt：</h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span># Role </span></span>
+<span class="line"><span>    角色：定义要模拟的角色或任务，告诉大模型应该扮演什么样的角色。</span></span>
+<span class="line"><span># Profile </span></span>
+<span class="line"><span>    简介：提供关于提示词作者、版本、语言等基础信息。这有助于其他人了解提示词的来源、版本更新等信息。</span></span>
+<span class="line"><span>## Background </span></span>
+<span class="line"><span>    背景：对角色或任务进行详细描述，帮助大模型了解他们即将扮演的角色的背景知识。</span></span>
+<span class="line"><span>## Goals </span></span>
+<span class="line"><span>    目标：列出此任务的主要目标或希望达到的效果。</span></span>
+<span class="line"><span>## Constrains </span></span>
+<span class="line"><span>    约束条件：指明执行任务时需要遵守的规则或约束</span></span>
+<span class="line"><span>## Definition </span></span>
+<span class="line"><span>    详细描述任务中涉及到的特定概念或名词，确保概念对齐。</span></span>
+<span class="line"><span>## Tone </span></span>
+<span class="line"><span>    语气风格：描述完成任务时应采取的语言风格或情感基调，例如“正式”、“随意”、“幽默”等。</span></span>
+<span class="line"><span>## Skills </span></span>
+<span class="line"><span>    技能：列出执行此任务所需的技能或知识。强调提升注意力。</span></span>
+<span class="line"><span>## Examples</span></span>
+<span class="line"><span>    示例：提供完成任务的实际示例或模板，有助于理解任务的要求和预期结果。通过具体示例，大模型可以更加直观地理解任务的要求。one-shot、few-shots</span></span>
+<span class="line"><span>## Workflows</span></span>
+<span class="line"><span>    工作流程：描述完成任务的具体步骤或流程。重要‼️‼️</span></span>
+<span class="line"><span>## OutputFormat </span></span>
+<span class="line"><span>    输出格式：描述任务的预期输出格式，例如文本、图表、列表、Json等。确保大模型知道如何格式化他们的答案，使输出结果满足特定的要求或标准。</span></span>
+<span class="line"><span>## Initialization </span></span>
+<span class="line"><span>    初始化：提供开始任务时的开场白或初始状态。强调提升注意力。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>Prompt 提示技巧：</h2>
+<ul>
+<li>Zero-shot（零样本）</li>
+<li>One-shot（单样本）</li>
+<li>Few-shot（少样本范例）</li>
+<li>COT（思维链 Chain of thought prompting）</li>
+<li>TOT（思维树 Tree of thought prompting）</li>
+<li>AOT（思维算法 Algorithm of Thoughts）</li>
+<li>Fine-tuned（微调）</li>
+<li>Streamlining Complex Tasks with Chains（使用工具链简化复杂任务）</li>
+<li>APE（Automatic Prompt Engineering 自动提示工程 Prompt Generation、Score、Iteration）</li>
+<li>RAG（Retrieval Augmented Generation 使用外部知识库进行检索增强）</li>
+<li>Emotional Stimulus（利用情绪激励手段提升性能）</li>
+</ul>
+<h2>Prompt工程框架：</h2>
+<ul>
+<li>Langchain（tool Chains）</li>
+<li>Semantic Kernel（multiple programming languages）</li>
+<li>Guidance</li>
+<li>Nemo Guardrails（construct Rails）</li>
+<li>LlamaIndex（data management）</li>
+<li>FastRAG（basic RAG）</li>
+<li>Auto-GPT（LLM agents）</li>
+</ul>
+<h2>Instructions 建议：</h2>
+<ul>
+<li>需要批判性使用，不保证绝对的正确</li>
+</ul>
+<p>| #Principle | Prompt Principle for Instructions | 中文翻译 |
+| :</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>如何做职业规划</title>
+      <link>https://myblog.camscanner.top/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E5%81%9A%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92.html</link>
+      <guid>https://myblog.camscanner.top/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E5%81%9A%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">如何做职业规划</source>
+      <description>一、职场能力 职场发展全景图： 发展路线： 专业路线(P)（也就是常说的P序列）​ 普通人比较困难 管理路线(M)（也就是常说的M序列）​ M路线对于大部分人来说，是延长职场生命周期的主要路径、也是提升薪酬和成就感的主要路径； 创业路线(E)（我定义为E-Entrepreneurship序列） 3要素：认知、资源、心力 三要素： 认知： 赚不到认知之外...</description>
+      <category>个人思考</category>
+      <category>职业规划</category>
+      <pubDate>Tue, 17 Jun 2025 14:29:43 GMT</pubDate>
+      <content:encoded><![CDATA[<h3>一、职场能力</h3>
+<h4>职场发展全景图：</h4>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/ebc6137dec7a63c7b0eb4a5c4db45606.jpeg" width="80%"></p>
+<h4>发展路线：</h4>
+<ul>
+<li>专业路线(P)（也就是常说的P序列）​
+<ul>
+<li>普通人比较困难</li>
+</ul>
+</li>
+<li>管理路线(M)（也就是常说的M序列）​
+<ul>
+<li>M路线对于大部分人来说，是延长职场生命周期的主要路径、也是提升薪酬和成就感的主要路径；</li>
+</ul>
+</li>
+<li>创业路线(E)（我定义为E-Entrepreneurship序列）
+<ul>
+<li>3要素：认知、资源、心力</li>
+</ul>
+</li>
+</ul>
+<h4>三要素：</h4>
+<ul>
+<li>认知：
+<ul>
+<li>赚不到认知之外的钱确实是非常有道理的；</li>
+<li>人脉越强你认知提升的速度越快、资本越雄厚留给认知提升的时间周期越长；​</li>
+<li>心力越强越容易排除负面干扰做出正确的决策，心力越强坚持投入的周期会越长。</li>
+</ul>
+</li>
+<li>资源：
+<ul>
+<li>创业必然需要人力、物力、财力、人脉等多方面的资源，不同性质的创业需要资源维度和程度会有差异，但这必然是核心要素；一定时期内必然收入不可保障、甚至自己需要投入资金，所以自己有匹配的资本就是刚需的要素；​</li>
+</ul>
+</li>
+<li>心力：
+<ul>
+<li>不论大小的创业，一定会不停的遇到挫折、会有不同的声音、始料不及的挑战，没有强大的心力必然会倒在黎明前。</li>
+</ul>
+</li>
+</ul>
+<h4>核心竞争力：</h4>
+<ul>
+<li>
+<p>职场底层能力模型：</p>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/23e01010330ce925a555409b7e536e1b.jpeg" width="60%"></p>
+</li>
+<li>
+<p>认知冰山模型：</p>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/c91aa1c93275f0cb56931267c3d5fccc.jpeg" width="60%"></p>
+</li>
+<li>
+<p>6层能力：</p>
+<ul>
+<li>沟通力</li>
+<li>思考力
+<ul>
+<li>方案、汇报、指定目标、讨论</li>
+</ul>
+</li>
+<li>科学成事
+<ul>
+<li>事情的核心要素和核心逻辑</li>
+</ul>
+</li>
+<li>把控力+ 带人成事：
+<ul>
+<li>事情的性质：重要性、紧急性、投入产出比、价值、做到什么程度</li>
+<li>设定目标、目标拆解、共识目标、沟通协同、获得结果认同</li>
+</ul>
+</li>
+<li>团队管理、决策力、心力：
+<ul>
+<li>招用育留</li>
+<li>决策四要素：信息、认知、视角、立场
+<ul>
+<li>面临信息缺失和认知，却需要尽早决策时，需要具有快速获取信息和提升认知的方法，也需要有获得多视角和客观立场的技巧</li>
+</ul>
+</li>
+<li>发自内心做好某一件事的精神力量，精力、能力、体力的集合</li>
+</ul>
+</li>
+<li>看趋势、模式构建、体系构建、格局视野、个人魅力</li>
+</ul>
+</li>
+</ul>
+<h4>阶段和核心能力的对照：</h4>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/1bdc4866bd18071d500c1e889faa58d1.jpeg" width="80%"></p>
+<h4>核心能力水平：</h4>
+<ul>
+<li>
+<p>C0-沟通力段位图：</p>
+<table>
+<thead>
+<tr>
+<th>段位</th>
+<th>特征描述</th>
+<th>具体表现</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>被各类人认可、信任、欣赏，形成个人魅力</td>
+<td>✓ <span style="color: rgb(255, 169, 0);">主动找你</span><br>✓ 愿意共事<br>✓ <span style="color: rgb(255, 169, 0);">因人信事</span></td>
+</tr>
+<tr>
+<td>A</td>
+<td>达到愉悦的状态，为后续更好的沟通打下基础</td>
+<td>✓ 让别人感受到你对事或人的重视<br>✓ 让别人感受到来自你的<span style="color: rgb(255, 169, 0);">尊重</span><br>✓ 让别人觉得和你沟通很舒畅<br>✓ 让你自己心情是<span style="color: rgb(255, 169, 0);">愉悦的</span></td>
+</tr>
+<tr>
+<td>B</td>
+<td>低成本高效高质达成目的</td>
+<td>✓ <span style="color: rgb(255, 169, 0);">获得想要的信息</span><br>✓ 让别人接收到必要的信息<br>✓ 让别人共享大量的思路<br>✓ <span style="color: rgb(255, 169, 0);">说服别人</span>接受你的方案<br>✓ <span style="color: rgb(255, 169, 0);">让别人做你期望的事情</span><br>✓ 让别人能接受对你价值的建议</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>C1-思考力：
+|段位|思考力维度|具体特征|
+|</p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>如何养成微习惯</title>
+      <link>https://myblog.camscanner.top/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E5%85%BB%E6%88%90%E5%BE%AE%E4%B9%A0%E6%83%AF.html</link>
+      <guid>https://myblog.camscanner.top/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E5%85%BB%E6%88%90%E5%BE%AE%E4%B9%A0%E6%83%AF.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">如何养成微习惯</source>
+      <description>微习惯养成</description>
+      <category>个人思考</category>
+      <pubDate>Tue, 17 Jun 2025 14:29:22 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>微习惯养成</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>如何写好PPT</title>
+      <link>https://myblog.camscanner.top/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BDPPT.html</link>
+      <guid>https://myblog.camscanner.top/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BDPPT.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">如何写好PPT</source>
+      <description>link 目标： 信息传递效率高 视觉呈现美观、大气 常用技巧 色块 蒙板 线条 快捷键 布尔运算 注意点： 先选择谁则保留谁 文字、图片、形状都可以进行运算 文案 好的文案 = 重点突出 + 逻辑清晰 封面 好的封面 = 书法字体 + 高清大图 字体 字体类型 无衬线字体（用于正文） 思源黑体 平方字体 衬线字体（用于标题和艺术字） 思源宋体 书法字...</description>
+      <category>个人思考</category>
+      <pubDate>Tue, 17 Jun 2025 14:28:43 GMT</pubDate>
+      <content:encoded><![CDATA[<p><a href="https://appbHlkwH0P9313.h5.xiaoeknow.com/giftcode/0070090794277500973" target="_blank" rel="noopener noreferrer">link</a></p>
+<h3>目标：</h3>
+<ul>
+<li>信息传递效率高</li>
+<li>视觉呈现美观、大气</li>
+</ul>
+<div class="language-markmap line-numbers-mode" data-highlighter="shiki" data-ext="markmap" data-title="markmap" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>## PPT构成元素</span></span>
+<span class="line"><span>- 文字 </span></span>
+<span class="line"><span>- 图片</span></span>
+<span class="line"><span>- 图表</span></span>
+<span class="line"><span>- 图标</span></span>
+<span class="line"><span>- 形状</span></span>
+<span class="line"><span>- 视频</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>常用技巧</h3>
+<h4>色块</h4>
+<h4>蒙板</h4>
+<h4>线条</h4>
+<h3>快捷键</h3>
+<p>| 操作 | 快捷键 |
+|</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
