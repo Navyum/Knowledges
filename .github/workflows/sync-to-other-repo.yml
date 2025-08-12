@@ -11,13 +11,13 @@ jobs:
 
     steps:
       - name: Checkout source repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: source
           fetch-depth: 0
 
       - name: Checkout target repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: Navyum/Knowledge
           token: ${{ secrets.TARGET_REPO_TOKEN }}
