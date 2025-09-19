@@ -128,11 +128,11 @@ export default hopeTheme(
         provider: "Waline",
         serverURL: "https://waline.camscanner.top",
         reaction: [
-          "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44d.png",
-          "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44f.png",
-          "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f60e.png",
-          "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f602.png",
-          "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f635-200d-1f4ab.png",
+          "https://raw.staticdn.net/Navyum/imgbed/pic/IMG/08c0a077780263f3df97613e58e71744.svg",
+          "https://raw.staticdn.net/Navyum/imgbed/pic/IMG/9fa091f676e4451ee5946fed948cb8fe.svg",
+          "https://raw.staticdn.net/Navyum/imgbed/pic/IMG/5f80f04e6ee97feebdd00feff92ced82.svg",
+          "https://raw.staticdn.net/Navyum/imgbed/pic/IMG/6201503f3aa918470a2190b36d1e196f.svg",
+          "https://raw.staticdn.net/Navyum/imgbed/pic/IMG/8a44746659bab9f133830029b166edff.svg"
         ],
         // 部署 Waline：https://waline.js.org/guide/get-started.html
         pageview: true, // 浏览量统计
