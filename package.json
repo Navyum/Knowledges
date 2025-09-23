@@ -34,6 +34,7 @@
     "prettier": "^3.5.3",
     "sass-embedded": "^1.85.1",
     "sass-loader": "^16.0.5",
-    "vidstack": "^1.12.13"
+    "vidstack": "^1.12.13",
+    "markmap-lib": "^0.18.5"
   }
 }
