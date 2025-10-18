@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://myblog.camscanner.top/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://myblog.camscanner.top/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>Navyum&amp;apos;s Blog</title>
+    <link>https://myblog.camscanner.top/</link>
+    <description>自我提升笔记，记录学习成长的经历；互联网摸爬滚打总结，系统性整理知识</description>
+    <language>zh-CN</language>
+    <pubDate>Sat, 18 Oct 2025 06:59:14 GMT</pubDate>
+    <lastBuildDate>Sat, 18 Oct 2025 06:59:14 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>分布式</category>
+    <category>插件</category>
+    <category>博客</category>
+    <category>AI搜索</category>
+    <category>内容营销</category>
+    <category>LLM</category>
+    <category>个人思考</category>
+    <category>参考资料</category>
+    <category>AI</category>
+    <item>
+      <title></title>
+      <link>https://myblog.camscanner.top/map.html</link>
+      <guid>https://myblog.camscanner.top/map.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml"></source>
+      <description>Navyum&amp;apos;s blog logo 学习文档 Computer Science 💻 计算机网络 Large Language Model Job Interview Effective tools Reading Books 📚 读书笔记</description>
+      <pubDate>Sun, 15 Jun 2025 10:30:52 GMT</pubDate>
+      <content:encoded><![CDATA[<p align="center">
+  <img src="/logo.svg" alt="Navyum's blog logo" width="100" height="auto">
+</p>
+<h1 align="center">学习文档</h1>
+<h2>Computer Science</h2>
+<ul>
+<li><a href="%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C">💻 计算机网络</a></li>
+<li><a href="/%E7%AE%97%E6%B3%95%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/0.%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84.html" target="_blank">⛵️ 算法数据结构</a></li>
+<li><a href="/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/golang/golang%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html" target="_blank">📑 编程语言</a></li>
+<li><a href="/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/0.%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84.html" target="_blank">📁 常用软件</a>
+<ul>
+<li><a href="/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/%E6%95%B0%E6%8D%AE%E5%BA%93/mysql/01.Mysql%E9%80%BB%E8%BE%91%E6%9E%B6%E6%9E%84.html" target="_blank">Mysql</a></li>
+<li><a href="/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/%E6%95%B0%E6%8D%AE%E5%BA%93/redis/01.%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E3%80%81%E5%BA%95%E5%B1%82%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html" target="_blank">Redis</a></li>
+<li><a href="/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/%E5%AE%B9%E5%99%A8%E5%8C%96/docker.html" target="_blank">Docker</a></li>
+</ul>
+</li>
+<li><a href="/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/02.%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%8E%E6%9E%B6%E6%9E%84/01.%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BA%B2.html" target="_blank">🌡️ 架构设计</a></li>
+</ul>
+<h2>Large Language Model</h2>
+<ul>
+<li><a href="/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/00.%E6%A6%82%E5%BF%B5/01.Transformer.html" target="_blank">🤖 大模型LLM</a></li>
+</ul>
+<h2>Job Interview</h2>
+<ul>
+<li><a href="/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C/Ready4Interview.html" target="_blank">👩 面试经验</a></li>
+<li><a href="/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E5%81%9A%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92.html" target="_blank">🤔 个人思考</a></li>
+</ul>
+<h2>Effective tools</h2>
+<ul>
+<li><a href="/%E5%B7%A5%E5%85%B7%E6%AD%A6%E5%99%A8%E5%BA%93/electron.html" target="_blank">🔧 工具</a></li>
+</ul>
+<h2>Reading Books</h2>
+<ul>
+<li><a href="https://www.notion.so/navyum/1c42fcd1fefa4e948d8514761b2ab8c7?v=0ca5dc6ee29e4c2787dbd0f1055b4ed0" target="_blank" rel="noopener noreferrer">📚 读书笔记</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>2025提效插件推荐</title>
+      <link>https://myblog.camscanner.top/%E5%B7%A5%E5%85%B7%E6%AD%A6%E5%99%A8%E5%BA%93/2025%E6%8F%90%E6%95%88%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90.html</link>
+      <guid>https://myblog.camscanner.top/%E5%B7%A5%E5%85%B7%E6%AD%A6%E5%99%A8%E5%BA%93/2025%E6%8F%90%E6%95%88%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">2025提效插件推荐</source>
+      <description>在数字化办公时代，Chrome插件已成为提升工作效率的重要工具。笔者将结合自己的使用，将为您推荐2025年最受欢迎的10款生产力Chrome插件，帮助您打造更高效的浏览器工作环境。 1. Infinity 新标签页 (Pro) 在这里插入图片描述在这里插入图片描述 插件分类：浏览器个性化与效率工具 推荐理由：提供简洁美观的新标签页界面，支持一键添加网站...</description>
+      <category>分布式</category>
+      <pubDate>Wed, 15 Oct 2025 17:09:29 GMT</pubDate>
+      <content:encoded><![CDATA[<p>在数字化办公时代，Chrome插件已成为提升工作效率的重要工具。笔者将结合自己的使用，将为您推荐2025年最受欢迎的10款生产力Chrome插件，帮助您打造更高效的浏览器工作环境。</p>
+<h2>1. Infinity 新标签页 (Pro)</h2>
+<figure><img src="https://i-blog.csdnimg.cn/direct/888dcdf7ba8b442497b75e5199422ff0.png#pic_center" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
+<p><strong>插件分类</strong>：浏览器个性化与效率工具</p>
+<p><strong>推荐理由</strong>：提供简洁美观的新标签页界面，支持一键添加网站和应用，让您的浏览器主页更加个性化和高效。</p>
+<p><strong>特色功能</strong>：</p>
+<ul>
+<li>多端同步，随时随地访问您的个性化设置</li>
+<li>智能文件夹管理，轻松整理常用网站</li>
+<li>丰富的壁纸库，打造专属视觉体验</li>
+<li>灵活的图标和布局调整，满足不同使用习惯</li>
+</ul>
+<p><strong>使用场景</strong>：适用于希望定制浏览器主页、快速访问常用网站、提升浏览体验的用户。</p>
+<p><strong>使用感受</strong>：</p>
+<ul>
+<li>✅ <strong>优点</strong>：界面简洁美观，自定义程度高，支持多端同步，壁纸选择丰富</li>
+<li>❌ <strong>缺点</strong>：免费版功能有限，部分高级功能需要付费，偶尔会出现同步延迟</li>
+</ul>
+<h2>2. CrxMouse Chrome™ Gestures</h2>
+<figure><img src="https://i-blog.csdnimg.cn/direct/4787570398884257bfb2f1c75ee07b59.png#pic_center" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
+<p><strong>插件分类</strong>：浏览器操作增强工具</p>
+<p><strong>推荐理由</strong>：通过高度可自定义的鼠标手势，让您用最少的操作完成最多的任务，显著提升浏览效率。</p>
+<p><strong>特色功能</strong>：</p>
+<ul>
+<li>自定义鼠标手势，支持前进、后退、刷新等常用操作</li>
+<li>超级拖拽功能，拖拽链接、图片、文字快速执行操作</li>
+<li>鼠标滚轮手势，在标签页间快速切换</li>
+<li>丰富的快捷键自定义选项</li>
+</ul>
+<p><strong>使用场景</strong>：适用于需要频繁操作浏览器、希望通过快捷操作提高效率的用户，特别是重度浏览器使用者。</p>
+<p><strong>使用感受</strong>：</p>
+<ul>
+<li>✅ <strong>优点</strong>：操作效率显著提升，手势识别准确，自定义选项丰富，学习成本低</li>
+<li>❌ <strong>缺点</strong>：初期需要适应期，某些复杂手势容易误触，可能与某些网站的手势冲突</li>
+</ul>
+<h2>3. Raindrop.io</h2>
+<figure><img src="https://i-blog.csdnimg.cn/direct/5eeaa9c0c20245d8b1afbffcdbe9261e.png#pic_center" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
+<p><strong>插件分类</strong>：书签管理与信息整理工具</p>
+<p><strong>推荐理由</strong>：强大的书签管理工具，支持跨平台同步，让您高效收集、整理和管理网页信息。</p>
+<p><strong>特色功能</strong>：</p>
+<ul>
+<li>跨平台同步，支持Chrome、Firefox、Safari等多浏览器</li>
+<li>智能标签和文件夹管理，支持多层级分类</li>
+<li>全文搜索功能，快速找到所需书签</li>
+<li>团队协作功能，支持书签分享和协作</li>
+</ul>
+<p><strong>使用场景</strong>：适用于需要管理大量网页资源、进行信息归类、希望随时随地访问书签的用户。</p>
+<p><strong>使用感受</strong>：</p>
+<ul>
+<li>✅ <strong>优点</strong>：界面美观，分类功能强大，搜索速度快，跨平台同步稳定</li>
+<li>❌ <strong>缺点</strong>：免费版有收藏数量限制，高级功能需要付费，导入大量书签时可能较慢</li>
+</ul>
+<h2>4. The Great Suspender</h2>
+<figure><img src="https://i-blog.csdnimg.cn/direct/0c8f95e5881b4751bacdbc0189db8b15.png#pic_center" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
+<p><strong>插件分类</strong>：浏览器性能优化工具</p>
+<p><strong>推荐理由</strong>：智能管理标签页资源，自动暂停未使用的标签页，释放系统资源，让您的浏览器运行更流畅。</p>
+<p><strong>特色功能</strong>：</p>
+<ul>
+<li>自动暂停未使用的标签页，释放内存和CPU资源</li>
+<li>自定义暂停时间，根据使用习惯灵活设置</li>
+<li>白名单功能，保护重要标签页不被暂停</li>
+<li>一键恢复功能，快速重新激活暂停的标签页</li>
+</ul>
+<p><strong>使用场景</strong>：适用于同时打开大量标签页、系统资源紧张、希望优化浏览器性能的用户。</p>
+<p><strong>使用感受</strong>：</p>
+<ul>
+<li>✅ <strong>优点</strong>：内存占用明显减少，浏览器运行更流畅，自定义选项丰富，恢复速度快</li>
+<li>❌ <strong>缺点</strong>：恢复标签页时可能丢失部分状态，某些动态内容需要重新加载，偶尔会误暂停重要标签页</li>
+</ul>
+<h2>5. ChatGPT for Google</h2>
+<figure><img src="https://i-blog.csdnimg.cn/direct/69140ada55f6475c93edc7e37043799d.png#pic_center" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
+<p><strong>插件分类</strong>：AI辅助搜索工具</p>
+<p><strong>推荐理由</strong>：将ChatGPT的强大功能无缝集成到Google搜索中，让您在搜索的同时获得AI智能回答。</p>
+<p><strong>特色功能</strong>：</p>
+<ul>
+<li>在搜索结果页面直接显示ChatGPT回答</li>
+<li>支持多种搜索引擎，包括Google、Bing、DuckDuckGo等</li>
+<li>自定义触发方式，灵活控制AI回答的显示</li>
+<li>多语言支持，满足不同语言需求</li>
+</ul>
+<p><strong>使用场景</strong>：适用于需要AI辅助搜索、内容生成、希望获得更丰富搜索结果的用户。</p>
+<p><strong>使用感受</strong>：</p>
+<ul>
+<li>✅ <strong>优点</strong>：AI回答质量高，与搜索结果无缝集成，支持多种搜索引擎，使用便捷</li>
+<li>❌ <strong>缺点</strong>：需要ChatGPT账号，回答速度取决于网络状况，某些复杂问题回答可能不够准确</li>
+</ul>
+<h2>6. TextCortex</h2>
+<figure><img src="https://i-blog.csdnimg.cn/direct/37075e201bd6440b963202f9be44c39b.png#pic_center" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
+<p><strong>插件分类</strong>：AI写作辅助工具</p>
+<p><strong>推荐理由</strong>：集成ChatGPT功能，提供强大的写作辅助，支持内容重写、扩展、翻译等多种功能。</p>
+<p><strong>特色功能</strong>：</p>
+<ul>
+<li>内容重写和扩展，提升文章质量和长度</li>
+<li>支持25种语言翻译，满足国际化需求</li>
+<li>适用于多种在线平台，包括社交媒体、邮件等</li>
+<li>智能语法检查和风格调整</li>
+</ul>
+<p><strong>使用场景</strong>：适用于写作、营销、学术研究、内容创作等多个领域的用户。</p>
+<p><strong>使用感受</strong>：</p>
+<ul>
+<li>✅ <strong>优点</strong>：写作辅助功能强大，支持多种语言，界面友好，生成内容质量较高</li>
+<li>❌ <strong>缺点</strong>：免费版有使用次数限制，某些专业术语翻译可能不够准确，需要网络连接</li>
+</ul>
+<h2>7. Merge Windows</h2>
+<figure><img src="https://i-blog.csdnimg.cn/direct/90311659f2cc47359b13fedf1696daa2.png#pic_center" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
+<p><strong>插件分类</strong>：浏览器窗口管理工具</p>
+<p><strong>推荐理由</strong>：一键合并所有Chrome窗口，简化窗口管理，让您的桌面更加整洁有序。</p>
+<p><strong>特色功能</strong>：</p>
+<ul>
+<li>一键合并所有Chrome窗口到当前窗口</li>
+<li>保持标签页原有顺序，避免混乱</li>
+<li>支持快捷键操作，快速执行合并</li>
+<li>轻量级设计，不影响浏览器性能</li>
+</ul>
+<p><strong>使用场景</strong>：适用于需要同时处理多个窗口、希望简化浏览器界面、追求整洁工作环境的用户。</p>
+<p><strong>使用感受</strong>：</p>
+<ul>
+<li>✅ <strong>优点</strong>：操作简单，一键合并所有窗口，桌面更整洁，标签页顺序保持良好</li>
+<li>❌ <strong>缺点</strong>：合并后标签页过多可能影响性能，无法选择性合并窗口，某些特殊窗口可能无法合并</li>
+</ul>
+<h2>8. Chrome Show Tab Numbers</h2>
+<figure><img src="https://i-blog.csdnimg.cn/direct/090d6f6ebaed4a67ab2e7f4c49215d5c.png#pic_center" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
+<p><strong>插件分类</strong>：标签页导航工具</p>
+<p><strong>推荐理由</strong>：显示标签页编号，配合快捷键实现快速标签页切换，让多标签页管理变得简单高效。</p>
+<p><strong>特色功能</strong>：</p>
+<ul>
+<li>长按特定键显示标签页编号</li>
+<li>支持自定义快捷键，适应不同使用习惯</li>
+<li>快速跳转到指定编号的标签页</li>
+<li>轻量级插件，几乎不占用系统资源</li>
+</ul>
+<p><strong>使用场景</strong>：适用于同时打开多个标签页、需要通过快捷键快速切换、追求高效操作的用户。</p>
+<p><strong>使用感受</strong>：</p>
+<ul>
+<li>✅ <strong>优点</strong>：轻量级，几乎不占用资源，快捷键切换效率高，编号显示清晰</li>
+<li>❌ <strong>缺点</strong>：需要记忆快捷键，标签页过多时编号可能重叠，某些情况下编号显示可能不准确</li>
+</ul>
+<h2>9. Dark Reader</h2>
+<figure><img src="https://i-blog.csdnimg.cn/direct/cc19057b85d445f69910a69d2fbe0e61.png#pic_center" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
+<p><strong>插件分类</strong>：视觉体验优化工具</p>
+<p><strong>推荐理由</strong>：为所有网站应用深色主题，减少眼睛疲劳，提高可读性，特别适合长时间使用浏览器的用户。</p>
+<p><strong>特色功能</strong>：</p>
+<ul>
+<li>自动为网站应用深色主题</li>
+<li>自定义亮度、对比度、字体设置</li>
+<li>支持网站白名单，可为特定网站禁用深色模式</li>
+<li>多种深色主题预设，满足不同偏好</li>
+</ul>
+<p><strong>使用场景</strong>：适用于在光线较暗环境中使用、长时间使用浏览器、希望保护视力的用户。</p>
+<p><strong>使用感受</strong>：</p>
+<ul>
+<li>✅ <strong>优点</strong>：护眼效果明显，自定义选项丰富，支持网站白名单，深色主题质量高</li>
+<li>❌ <strong>缺点</strong>：某些网站显示效果可能不理想，可能影响图片和视频的观看体验，偶尔会出现兼容性问题</li>
+</ul>
+<h2>10. TaskMatrix Pro - 任务管理插件</h2>
+<figure><img src="https://i-blog.csdnimg.cn/direct/21ce932b9e844a238b33423d2d7abbdd.png#pic_center" alt="在这里插入图片描述" tabindex="0" loading="lazy"><figcaption>在这里插入图片描述</figcaption></figure>
+<p><strong>插件分类</strong>：任务管理与时间规划工具</p>
+<p><strong>推荐理由</strong>：基于艾森豪威尔矩阵的智能任务管理插件，通过可视化方式帮助您科学管理任务优先级，提高工作效率。</p>
+<p><strong>特色功能</strong>：</p>
+<ul>
+<li><strong>艾森豪威尔矩阵可视化</strong>：将任务按重要性和紧急程度自动分配到四个象限</li>
+<li><strong>智能任务管理</strong>：支持添加、编辑、删除任务，设置重要性等级和完成时间</li>
+<li><strong>实时数据分析</strong>：提供任务完成情况统计和效率分析报告</li>
+<li><strong>跨浏览器支持</strong>：同时支持Chrome和Firefox浏览器</li>
+<li><strong>数据安全</strong>：本地存储保护隐私，支持数据导出/导入</li>
+<li><strong>现代化界面</strong>：简洁直观的用户界面，支持拖拽交互</li>
+</ul>
+<p><strong>使用场景</strong>：</p>
+<ul>
+<li>项目经理和团队负责人进行任务优先级管理</li>
+<li>个人用户进行日常任务规划和时间管理</li>
+<li>学生进行学习任务安排和进度跟踪</li>
+<li>自由职业者进行项目管理和客户任务分配</li>
+</ul>
+<p><strong>核心优势</strong>：</p>
+<ul>
+<li>基于经典的时间管理理论，科学有效</li>
+<li>实时可视化展示，一目了然</li>
+<li>智能提醒功能，避免重要任务遗漏</li>
+<li>详细的数据分析，帮助优化工作习惯</li>
+</ul>
+<p><strong>使用感受</strong>：</p>
+<ul>
+<li>✅ <strong>优点</strong>：艾森豪威尔矩阵可视化效果出色，任务分类清晰，数据分析详细，界面现代化，跨浏览器支持</li>
+<li>❌ <strong>缺点</strong>：初期需要适应矩阵分类思维，某些复杂任务可能难以准确分类，数据导入导出功能有待完善</li>
+</ul>
+<h2>总结</h2>
+<p>这10款Chrome插件涵盖了浏览器个性化、操作优化、内容管理、AI辅助、视觉体验、任务管理等多个方面，能够从不同角度提升您的工作效率。无论您是普通用户、内容创作者、开发者还是项目经理，都能找到适合自己需求的插件组合。</p>
+]]></content:encoded>
+      <enclosure url="https://i-blog.csdnimg.cn/direct/888dcdf7ba8b442497b75e5199422ff0.png#pic_center" type="image/"/>
+    </item>
+    <item>
+      <title>插件推荐</title>
+      <link>https://myblog.camscanner.top/%E5%B7%A5%E5%85%B7%E6%AD%A6%E5%99%A8%E5%BA%93/%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90.html</link>
+      <guid>https://myblog.camscanner.top/%E5%B7%A5%E5%85%B7%E6%AD%A6%E5%99%A8%E5%BA%93/%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">插件推荐</source>
+      <description>2025年最强大脑！TaskMatrix Pro - 艾森豪威尔矩阵Chrome插件，秒杀所有任务管理工具 TaskMatrix Pro Banner TaskMatrix Pro - 基于艾森豪威尔矩阵的智能任务管理解决方案 在当今快节奏的工作环境中，如何高效管理任务和时间已成为每个职场人士必须面对的挑战。传统的任务管理方法往往效率低下，难以应对复杂...</description>
+      <category>插件</category>
+      <category>博客</category>
+      <pubDate>Wed, 15 Oct 2025 17:09:01 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div align="center">
+<p><img src="https://cdn.jsdelivr.net/gh/Navyum/imgbed@pic/IMG/4085bbf9332e16a75c8dd322763e9d53.png" alt="TaskMatrix Pro Banner" width="500" loading="lazy"></p>
+<p><em>TaskMatrix Pro - 基于艾森豪威尔矩阵的智能任务管理解决方案</em></p>
+</div>
+<p>在当今快节奏的工作环境中，如何高效管理任务和时间已成为每个职场人士必须面对的挑战。传统的任务管理方法往往效率低下，难以应对复杂多变的工作需求。今天，我们将深入探讨一款基于艾森豪威尔矩阵原理的智能任务管理插件——TaskMatrix Pro，它如何帮助用户实现工作效能的显著提升。</p>
+<h2>什么是艾森豪威尔矩阵？</h2>
+<p>艾森豪威尔矩阵，也被称为时间管理矩阵，是由美国前总统德怀特·艾森豪威尔提出的一种任务优先级分类方法。该矩阵将任务按照重要性和紧急程度分为四个象限：</p>
+<ul>
+<li><strong>第一象限（重要且紧急）</strong>：需要立即处理的任务，如危机处理、紧急项目等</li>
+<li><strong>第二象限（重要不紧急）</strong>：需要计划安排的任务，如长期规划、技能提升等</li>
+<li><strong>第三象限（紧急不重要）</strong>：可以委托他人处理的任务，如某些会议、电话等</li>
+<li><strong>第四象限（不重要不紧急）</strong>：应该避免或删除的任务，如无意义的社交活动等</li>
+</ul>
+<h2>TaskMatrix Pro：让任务管理变得简单高效</h2>
+<div align="center">
+<p><img src="https://cdn.jsdelivr.net/gh/Navyum/imgbed@pic/IMG/88059f617dfbcdd1c151ce3f1ccda5d3.png" alt="TaskMatrix Pro 主界面" width="600" loading="lazy"></p>
+<p><em>直观的四象限任务分布，帮助您清晰掌握任务优先级</em></p>
+</div>
+<p>TaskMatrix Pro是一款专为现代职场人士设计的浏览器插件，它将艾森豪威尔矩阵的理论完美融入到实际应用中，为用户提供了一个直观、高效的任务管理解决方案。</p>
+<h3>核心功能特色</h3>
+<h4>1. 智能任务分类</h4>
+<p>插件能够根据用户设定的重要性和紧急程度，自动将任务分配到相应的象限中。这种自动化的分类机制大大减少了用户手动整理任务的时间，让用户能够专注于任务本身而非管理过程。</p>
+<h4>2. 实时可视化展示</h4>
+<p>通过直观的四象限矩阵界面，用户可以一目了然地看到所有任务的分布情况。不同颜色和大小表示不同重要性的任务，帮助用户快速识别优先级。</p>
+<div align="center">
+<p><img src="https://cdn.jsdelivr.net/gh/Navyum/imgbed@pic/IMG/73315d35261fd921fd3aa9a47e31a865.png" alt="任务管理界面" width="600" loading="lazy"></p>
+<p><em>完整的任务管理界面，支持添加、编辑、删除任务</em></p>
+</div>
+<h4>3. 智能提醒系统</h4>
+<p>基于任务完成时间的智能提醒功能，确保用户不会错过重要任务。系统会根据任务的紧急程度动态调整提醒频率，避免过度打扰。</p>
+<h4>4. 数据分析与洞察</h4>
+<p>插件提供详细的任务完成情况统计和效率分析，帮助用户了解自己的工作模式，识别时间管理中的改进空间。</p>
+<div align="center">
+<p><img src="https://cdn.jsdelivr.net/gh/Navyum/imgbed@pic/IMG/9b9812b7cb361583096141d413ab8b2c.png" alt="数据分析报告" width="600" loading="lazy"></p>
+<p><em>详细的任务完成率分析，追踪您的工作效率</em></p>
+</div>
+<h3>技术优势</h3>
+<h4>现代化设计理念</h4>
+<p>TaskMatrix Pro采用现代化的用户界面设计，简洁直观的操作流程让用户能够快速上手。响应式布局确保在不同设备上都能获得良好的使用体验。</p>
+<h4>数据安全保障</h4>
+<p>所有任务数据均存储在本地，确保用户隐私安全。同时支持数据导出和导入功能，方便用户进行数据备份和迁移。</p>
+<h4>跨平台兼容</h4>
+<p>支持Chrome和Firefox两大主流浏览器，满足不同用户的使用习惯。插件采用标准化的Web技术开发，确保稳定性和兼容性。</p>
+<h2>实际应用场景</h2>
+<div align="center">
+<p><img src="https://cdn.jsdelivr.net/gh/Navyum/imgbed@pic/IMG/a5a36ba7772cfe2157aa6f24f212861a.png" alt="时间趋势分析" width="600" loading="lazy"></p>
+<p><em>时间趋势分析，了解您的工作模式和效率变化</em></p>
+</div>
+<h3>个人用户</h3>
+<p>对于个人用户而言，TaskMatrix Pro可以帮助管理日常工作任务、学习计划、生活安排等。通过清晰的象限划分，用户能够更好地平衡工作与生活，提高整体效率。</p>
+<h3>团队协作</h3>
+<p>虽然主要面向个人用户，但TaskMatrix Pro的任务管理理念同样适用于团队环境。团队成员可以借鉴这种分类方法，提高团队整体的任务管理效率。</p>
+<h3>项目管理</h3>
+<p>对于项目经理而言，TaskMatrix Pro提供了一种新的项目任务管理视角。通过艾森豪威尔矩阵的框架，可以更好地识别项目中的关键任务和潜在风险。</p>
+<h2>如何开始使用</h2>
+<h3>安装步骤</h3>
+<ol>
+<li>访问Chrome Web Store或Firefox Add-ons</li>
+<li>搜索"TaskMatrix Pro"</li>
+<li>点击安装按钮完成插件安装</li>
+<li>在浏览器工具栏中找到插件图标并点击打开</li>
+</ol>
+<h3>基本操作</h3>
+<ol>
+<li><strong>添加任务</strong>：点击"添加任务"按钮，填写任务信息</li>
+<li><strong>设置优先级</strong>：为任务设定重要性和紧急程度</li>
+<li><strong>查看矩阵</strong>：主界面自动显示任务在四象限中的分布</li>
+<li><strong>跟踪进度</strong>：实时查看任务完成情况和效率统计</li>
+</ol>
+<h2>提升工作效率的关键要素</h2>
+<h3>1. 明确任务优先级</h3>
+<p>通过艾森豪威尔矩阵的框架，用户能够更清晰地识别哪些任务真正重要，哪些任务可以延后或委托。这种优先级管理能力是提升工作效率的基础。</p>
+<h3>2. 减少决策疲劳</h3>
+<p>当所有任务都按照统一标准进行分类时，用户就不需要每次都重新思考任务的优先级。这种标准化的管理方式能够显著减少决策疲劳。</p>
+<h3>3. 提高专注力</h3>
+<p>通过将任务可视化展示，用户可以更好地专注于当前象限的任务，避免被其他象限的任务分散注意力。</p>
+<h3>4. 持续改进</h3>
+<p>定期的数据分析帮助用户了解自己的工作模式，识别效率瓶颈，从而制定针对性的改进策略。</p>
+<h2>未来发展趋势</h2>
+<p>随着人工智能技术的不断发展，任务管理工具也在向更加智能化的方向发展。TaskMatrix Pro作为一款基于经典管理理论的现代工具，为未来的智能化任务管理奠定了基础。</p>
+<h3>智能化升级潜力</h3>
+<ul>
+<li>自动任务分类：基于历史数据自动判断任务优先级</li>
+<li>智能时间预测：根据用户习惯预测任务完成时间</li>
+<li>个性化建议：基于用户行为模式提供个性化的时间管理建议</li>
+</ul>
+<h3>集成化发展方向</h3>
+<ul>
+<li>与其他生产力工具的集成</li>
+<li>团队协作功能的增强</li>
+<li>跨设备同步能力的提升</li>
+</ul>
+<h2>结语</h2>
+<p>在信息爆炸的时代，如何高效管理任务和时间已成为决定个人和团队成功的关键因素。TaskMatrix Pro通过将经典的艾森豪威尔矩阵理论与现代技术相结合，为用户提供了一个实用、高效的任务管理解决方案。</p>
+<div align="center">
+<p><img src="https://cdn.jsdelivr.net/gh/Navyum/imgbed@pic/IMG/eba45e8633092225dfbad8cf35eba2a8.png" alt="TaskMatrix Pro 特色展示" width="600" loading="lazy"></p>
+<p><em>立即体验TaskMatrix Pro，开启高效工作的新篇章</em></p>
+</div>
+<p>无论您是忙碌的职场人士、学生还是自由职业者，TaskMatrix Pro都能帮助您更好地管理任务，提升工作效率，实现工作与生活的平衡。</p>
+<blockquote>
+<p>💡 <strong>立即开始</strong>: 从 <a href="https://chrome.google.com/webstore/detail/fejgdbdgmplakfakmkgbbcefmchldhdf" target="_blank" rel="noopener noreferrer">Chrome Web Store</a> 或 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/taskmatrix-pro/" target="_blank" rel="noopener noreferrer">Firefox Add-ons</a> 下载体验完整功能！</p>
+</blockquote>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/Navyum/imgbed@pic/IMG/4085bbf9332e16a75c8dd322763e9d53.png" type="image/png"/>
+    </item>
+    <item>
+      <title>GEO优化实战指南：从零到AI推荐第二名的成功经验</title>
+      <link>https://myblog.camscanner.top/%E5%B7%A5%E5%85%B7%E6%AD%A6%E5%99%A8%E5%BA%93/%E5%85%B3%E4%BA%8EGEO%E4%BC%98%E5%8C%96.html</link>
+      <guid>https://myblog.camscanner.top/%E5%B7%A5%E5%85%B7%E6%AD%A6%E5%99%A8%E5%BA%93/%E5%85%B3%E4%BA%8EGEO%E4%BC%98%E5%8C%96.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">GEO优化实战指南：从零到AI推荐第二名的成功经验</source>
+      <description>GEO优化实战指南：一周内直接让各大AI推荐了我的插件 什么是GEO优化 GEO（Generative Engine Optimization） 即生成式引擎优化，是一种新兴的数字营销策略。与传统SEO相比，SEO目标是在搜索结果页面上为网页排名，以获取流量；而GEO目则是影响AI模型本身，使其在生成的答案中引用、提及或推荐品牌内容 GEO的市场背景与...</description>
+      <category>AI搜索</category>
+      <category>内容营销</category>
+      <pubDate>Sun, 28 Sep 2025 15:43:54 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>GEO优化实战指南：一周内直接让各大AI推荐了我的插件</h2>
+<h3>什么是GEO优化</h3>
+<p><strong>GEO（Generative Engine Optimization）</strong> 即生成式引擎优化，是一种新兴的数字营销策略。与传统SEO相比，SEO目标是在搜索结果页面上为网页排名，以获取流量；而GEO目则是影响AI模型本身，使其在生成的答案中引用、提及或推荐品牌内容</p>
+<h3>GEO的市场背景与机遇</h3>
+<p>随着ChatGPT、Gemini、DeepSeek、豆包等生成式AI助手的普及，用户获取信息的搜索行为正在经历深刻变革。我们越来越习惯从AI聊天软件、AI终端获取我们需要的信息，传统的搜索引擎正在进行AI化升级。</p>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/f4b973746df3f7bbc9b87afad9bf2a3c.png" width="80%"></p>
+<p><strong>市场数据：</strong> (<a href="https://reports.valuates.com/market-reports/QYRE-Auto-3C19486/global-generative-engine-optimization-geo-services" target="_blank" rel="noopener noreferrer">数据来自Valuates报告</a>)</p>
+<ul>
+<li>2024年全球GEO服务市场规模：8.86亿美元</li>
+<li>2025-2031年预计市场规模：73.18亿美元</li>
+<li>复合年增长率：34.0%（传统SEO仅为12.6%）</li>
+</ul>
+<h2>聊聊我的做GEO的背景与动机</h2>
+<p>本人开发了一款Chrome插件<a href="https://chrome.google.com/webstore/detail/fejgdbdgmplakfakmkgbbcefmchldhdf" target="_blank" rel="noopener noreferrer">TaskMatrix Pro</a>，但初期下载量较低。</p>
+<p>期间，尝试了传统SEO方式，但效果甚微，需要寻找新的推广策略。最近在微信公众号里面，阅读了新榜关于AI搜索的文章<a href="https://mp.weixin.qq.com/s/pX6nKkGxHe3y-TQQQ6DjEw" target="_blank" rel="noopener noreferrer">我们虚构了一个奶茶品牌，并成功让AI推荐了它</a>。受到启发，我自己也决定尝试下使用GEO的方式进行优化，提升曝光度。最终短短一周内就取得了自我感觉良好的效果。趁着这个时间，我对这一周的GEO进行了一些简单的总结，希望能帮助到阅读此文的各位小伙伴。</p>
+<h2>GEO优化成果展示</h2>
+<h3>核心成果</h3>
+<p>通过一周左右的GEO优化，我的chrome插件TaskMatrix Pro在多个主流AI聊天平台上询问"推荐几个任务管理插件"时,均获得获得第二名推荐展示（排名是波动的，有可能过段时间又下去了，但检索源应该会一直在哦）。尽管虽然但是，我的插件的曝光量还是没有上去😭。</p>
+<h3>各平台展示效果如下</h3>
+<h4>豆包AI展示</h4>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/4f0bd06a0637571ee50974cd8f3fb4b6.png" width="80%"></p>
+<h4>DeepSeek展示</h4>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/52bd8716db0e437c2ec664596cdf9aac.png" width="80%"></p>
+<h4>Kimi展示</h4>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/991e0f8ef827794ef3f42eddeb641b02.png" width="80%"></p>
+<h2>GEO优化实战策略</h2>
+<h3>理论基础分析（结合文章、一些论文，以及实验）</h3>
+<h4>1. AI搜索源的偏好规律（重要）</h4>
+<p><strong>核心发现：</strong> AI在联网检索时，对搜索源存在明显的偏好，某些来源出现概率高达60%以上。</p>
+<p><strong>原因分析：</strong></p>
+<p><strong>1.1 问题领域分类</strong></p>
+<ul>
+<li>AI会像人类一样对问题进行领域分类</li>
+<li>触发搜索时，AI会从对应领域的头部网站检索信息</li>
+<li>同时也会检索一些冷门网站，避免结果过于偏见</li>
+</ul>
+<p><strong>1.2 信息获取难易程度和可信度</strong></p>
+<ul>
+<li>AI聊天工具作为技术产品，对自家内容创作产品权重更高</li>
+<li>建议关注AI聊天工具背后公司的内容创作类产品作为突破口</li>
+</ul>
+<h4>2. 高质量内容特征（重要）</h4>
+<p><strong>符合AI口味的内容更容易获得高权重分数，主要体现在三个维度：</strong></p>
+<p>| 维度 | 要求 | 说明 |
+|:</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>GEO优化实战指南：从零到AI推荐第二名的成功经验</title>
+      <link>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/04.%E5%BA%94%E7%94%A8/%E5%85%B3%E4%BA%8EGEO%E4%BC%98%E5%8C%96Generative-Engine-Optimization.html</link>
+      <guid>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/04.%E5%BA%94%E7%94%A8/%E5%85%B3%E4%BA%8EGEO%E4%BC%98%E5%8C%96Generative-Engine-Optimization.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">GEO优化实战指南：从零到AI推荐第二名的成功经验</source>
+      <description>GEO优化实战指南：一周内直接让豆包聊天推荐了我的插件 什么是GEO优化 GEO（Generative Engine Optimization） 即生成式引擎优化，是一种新兴的数字营销策略。与传统SEO相比，SEO目标是在搜索结果页面上为网页排名，以获取流量；而GEO目则是影响AI模型本身，使其在生成的答案中引用、提及或推荐品牌内容 GEO的市场背景与...</description>
+      <category>AI搜索</category>
+      <category>内容营销</category>
+      <pubDate>Sun, 28 Sep 2025 15:43:54 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>GEO优化实战指南：一周内直接让豆包聊天推荐了我的插件</h2>
+<h3>什么是GEO优化</h3>
+<p><strong>GEO（Generative Engine Optimization）</strong> 即生成式引擎优化，是一种新兴的数字营销策略。与传统SEO相比，SEO目标是在搜索结果页面上为网页排名，以获取流量；而GEO目则是影响AI模型本身，使其在生成的答案中引用、提及或推荐品牌内容</p>
+<h3>GEO的市场背景与机遇</h3>
+<p>随着ChatGPT、Gemini、DeepSeek、豆包等生成式AI助手的普及，用户获取信息的搜索行为正在经历深刻变革。我们越来越习惯从AI聊天软件、AI终端获取我们需要的信息，传统的搜索引擎正在进行AI化升级。</p>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/f4b973746df3f7bbc9b87afad9bf2a3c.png" width="80%"></p>
+<p><strong>市场数据：</strong> (<a href="https://reports.valuates.com/market-reports/QYRE-Auto-3C19486/global-generative-engine-optimization-geo-services" target="_blank" rel="noopener noreferrer">数据来自Valuates报告</a>)</p>
+<ul>
+<li>2024年全球GEO服务市场规模：8.86亿美元</li>
+<li>2031年预计市场规模：73.18亿美元</li>
+<li>复合年增长率：34.0%（传统SEO仅为12.6%）</li>
+</ul>
+<h2>聊聊我的做GEO的背景与动机</h2>
+<p>本人开发了一款Chrome插件<a href="https://chrome.google.com/webstore/detail/fejgdbdgmplakfakmkgbbcefmchldhdf" target="_blank" rel="noopener noreferrer">TaskMatrix Pro</a>，但初期下载量较低。</p>
+<p>期间，尝试了传统SEO方式，但效果甚微，需要寻找新的推广策略。最近在微信公众号里面，阅读了新榜关于AI搜索的文章<a href="https://mp.weixin.qq.com/s/pX6nKkGxHe3y-TQQQ6DjEw" target="_blank" rel="noopener noreferrer">我们虚构了一个奶茶品牌，并成功让AI推荐了它</a>。受到启发，我自己也决定尝试下使用GEO的方式进行优化，提升曝光度。最终短短一周内就取得了自我感觉良好的效果。趁着这个时间，我对这一周的GEO进行了一些简单的总结，希望能帮助到阅读此文的各位小伙伴。</p>
+<h2>GEO优化成果展示</h2>
+<h3>核心成果</h3>
+<p>通过一周左右的GEO优化，我的chrome插件TaskMatrix Pro在多个主流AI聊天平台上询问"推荐几个任务管理插件"时,均获得获得第二名推荐展示（排名是波动的，有可能过段时间又下去了，但检索源应该会一直在哦）。尽管虽然但是，我的插件的曝光量还是没有上去😭。</p>
+<h3>各平台展示效果如下</h3>
+<h4>豆包AI展示</h4>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/4f0bd06a0637571ee50974cd8f3fb4b6.png" width="80%"></p>
+<h4>DeepSeek展示</h4>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/52bd8716db0e437c2ec664596cdf9aac.png" width="80%"></p>
+<h4>Kimi展示</h4>
+<p align="center"><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/991e0f8ef827794ef3f42eddeb641b02.png" width="80%"></p>
+<h2>GEO优化实战策略</h2>
+<h3>理论基础分析（结合文章、一些论文，以及实验）</h3>
+<h4>1. AI搜索时引用文章源的偏好规律（重要）</h4>
+<p><strong>核心发现：</strong> AI在联网检索时，对搜索源存在明显的偏好，某些来源出现概率高达60%以上。</p>
+<p><strong>原因分析：</strong></p>
+<p><strong>1.1 问题领域分类</strong></p>
+<ul>
+<li>AI会像人类一样对问题进行领域分类</li>
+<li>触发搜索时，AI会从对应领域的头部网站检索信息</li>
+<li>同时也会检索一些冷门网站，避免结果过于偏见</li>
+</ul>
+<p><strong>1.2 信息获取难易程度和可信度</strong></p>
+<ul>
+<li>AI聊天工具作为技术产品，对自家内容创作产品权重更高</li>
+<li>建议关注AI聊天工具背后公司的内容创作类产品作为突破口</li>
+</ul>
+<h4>2. 高质量内容特征（重要）</h4>
+<p><strong>符合AI口味的内容更容易获得高权重分数，主要体现在三个维度：</strong></p>
+<p>| 维度 | 要求 | 说明 |
+|:</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>langchain</title>
+      <link>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/01.%E6%A1%86%E6%9E%B6/langchain.html</link>
+      <guid>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/01.%E6%A1%86%E6%9E%B6/langchain.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">langchain</source>
+      <category>LLM</category>
+      <pubDate>Tue, 24 Jun 2025 10:18:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>eino</title>
+      <link>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/01.%E6%A1%86%E6%9E%B6/eino.html</link>
+      <guid>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/01.%E6%A1%86%E6%9E%B6/eino.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">eino</source>
+      <category>LLM</category>
+      <pubDate>Tue, 24 Jun 2025 10:18:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何事故复盘</title>
+      <link>https://myblog.camscanner.top/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E4%BA%8B%E6%95%85%E5%A4%8D%E7%9B%98.html</link>
+      <guid>https://myblog.camscanner.top/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/%E5%A6%82%E4%BD%95%E4%BA%8B%E6%95%85%E5%A4%8D%E7%9B%98.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">如何事故复盘</source>
+      <description>事故复盘体系化方案 事故复盘时间线流程图 复盘流程设计与具体方法 一、复盘前准备阶段 信息收集与整理（组织者核心工作） 具体方法： 建立事故档案模板 核心提问清单（5W2H） What（发生了什么）： &amp;quot;请描述一下事故的具体表现是什么？&amp;quot; &amp;quot;用户看到了什么异常现象？&amp;quot; &amp;quot;系统日志显示了什么错误信息？&amp;quot; When（时间节点）： &amp;quot;事故最早出现的时间点是什...</description>
+      <category>个人思考</category>
+      <pubDate>Fri, 20 Jun 2025 15:20:26 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>事故复盘时间线流程图</h2>
+<h2>复盘流程设计与具体方法</h2>
+<h3>一、复盘前准备阶段</h3>
+<h4>信息收集与整理（组织者核心工作）</h4>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>建立事故档案模板</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>事故基本信息表：</span></span>
+<span class="line"><span>- 事故编号：[自动生成]</span></span>
+<span class="line"><span>- 发生时间：[精确到分钟]</span></span>
+<span class="line"><span>- 发现时间：[精确到分钟]</span></span>
+<span class="line"><span>- 影响范围：[具体业务模块]</span></span>
+<span class="line"><span>- 影响时长：[分钟/小时]</span></span>
+<span class="line"><span>- 涉及人员：[角色+姓名]</span></span>
+<span class="line"><span>- 业务影响：[具体指标]</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>核心提问清单（5W2H）</strong></p>
+<ul>
+<li>
+<p><strong>What（发生了什么）</strong>：</p>
+<ul>
+<li>"请描述一下事故的具体表现是什么？"</li>
+<li>"用户看到了什么异常现象？"</li>
+<li>"系统日志显示了什么错误信息？"</li>
+</ul>
+</li>
+<li>
+<p><strong>When（时间节点）</strong>：</p>
+<ul>
+<li>"事故最早出现的时间点是什么时候？"</li>
+<li>"什么时候被发现的？"</li>
+<li>"从发现到解决用了多长时间？"</li>
+<li>"各个处理阶段的时间节点是什么？"</li>
+</ul>
+</li>
+<li>
+<p><strong>Where（影响范围）</strong>：</p>
+<ul>
+<li>"哪些系统/模块受到了影响？"</li>
+<li>"影响的地理区域或用户群体是什么？"</li>
+<li>"依赖的服务是否也出现了问题？"</li>
+</ul>
+</li>
+<li>
+<p><strong>Who（相关人员）</strong>：</p>
+<ul>
+<li>"事故处理过程中涉及了哪些角色？"</li>
+<li>"每个角色的具体职责是什么？"</li>
+<li>"决策链上的关键人物是谁？"</li>
+</ul>
+</li>
+<li>
+<p><strong>Why（根本原因）</strong>：</p>
+<ul>
+<li>"直接触发事故的原因是什么？"</li>
+<li>"为什么会出现这个触发条件？"</li>
+<li>"更深层次的系统性原因是什么？"</li>
+</ul>
+</li>
+<li>
+<p><strong>How（发生过程）</strong>：</p>
+<ul>
+<li>"事故是如何逐步演化的？"</li>
+<li>"处理过程中采取了哪些措施？"</li>
+<li>"哪些措施有效，哪些无效？"</li>
+</ul>
+</li>
+<li>
+<p><strong>How Much（影响程度）</strong>：</p>
+<ul>
+<li>"对业务的具体影响是什么？"</li>
+<li>"用户投诉数量是多少？"</li>
+<li>"经济损失如何量化？"</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>参与者准备与氛围营造</h4>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>参与者邀请策略</strong></p>
+<ul>
+<li>必须参与者：直接责任人、技术负责人、业务负责人</li>
+<li>建议参与者：相关开发、测试、运维人员</li>
+<li>可选参与者：产品经理、项目经理</li>
+</ul>
+</li>
+<li>
+<p><strong>会议前沟通技巧</strong></p>
+<ul>
+<li>提前1-2天发送事故时间线给所有参与者</li>
+<li>单独与直接责任人沟通，缓解心理压力</li>
+<li>明确会议目标："学习改进，非指责追责"</li>
+<li>强调保密原则，避免信息外泄</li>
+</ul>
+</li>
+</ul>
+<h3>二、复盘会议执行阶段</h3>
+<h4>开场阶段（5分钟）- 建立基调</h4>
+<p><strong>核心要点：</strong></p>
+<ol>
+<li>明确会议目标和原则</li>
+<li>营造安全开放的讨论氛围</li>
+<li>建立参与规则和期望</li>
+</ol>
+<p><strong>关键技巧：</strong></p>
+<ol>
+<li>使用积极正面的开场白，避免紧张氛围</li>
+<li>主动承认不足，树立榜样作用</li>
+<li>设置安全机制，保护参与者心理安全</li>
+</ol>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>开场白模板</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>"大家好，今天我们召开XX事故的复盘会议。</span></span>
+<span class="line"><span>首先明确一下，这次会议的目的是：</span></span>
+<span class="line"><span>1. 全面了解事故的来龙去脉</span></span>
+<span class="line"><span>2. 找出根本原因和系统性因素</span></span>
+<span class="line"><span>3. 制定具体的改进措施</span></span>
+<span class="line"><span>4. 避免类似事故再次发生</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>重要原则：</span></span>
+<span class="line"><span>- 对事不对人，聚焦问题本身</span></span>
+<span class="line"><span>- 鼓励开放讨论，不要有顾虑</span></span>
+<span class="line"><span>- 我们的目标是学习和改进"</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>建立参与规则</strong></p>
+<ul>
+<li>明确"每个人都有发言权，没有对错之分"</li>
+<li>设置"举手发言"或"轮流发言"机制</li>
+<li>鼓励"即使想法不成熟也要说出来"</li>
+<li>设置"安全词"，任何人感到不适可以喊停</li>
+</ul>
+</li>
+</ul>
+<h4>事实回顾阶段（15分钟）- 建立共同认知</h4>
+<p><strong>核心要点：</strong></p>
+<ol>
+<li>按时间线梳理事故全过程</li>
+<li>确认关键节点和决策点</li>
+<li>识别信息缺失和不确定点</li>
+</ol>
+<p><strong>关键技巧：</strong></p>
+<ol>
+<li>使用可视化时间轴，让信息更直观</li>
+<li>轮流发言机制，确保全员参与</li>
+<li>主动询问和验证，避免信息遗漏</li>
+</ol>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>时间线梳理法</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>在白板/屏幕上绘制时间轴：</span></span>
+<span class="line"><span>T-0: 事故发生</span></span>
+<span class="line"><span>T+5: 首次发现</span></span>
+<span class="line"><span>T+15: 初步分析</span></span>
+<span class="line"><span>T+30: 开始处理</span></span>
+<span class="line"><span>T+60: 问题解决</span></span>
+<span class="line"><span>T+120: 服务恢复</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>轮流发言机制</strong></p>
+<ul>
+<li>按座位顺序让每个人补充时间线上的细节</li>
+<li>使用"张三，你能补充一下T+15这个时间点发生了什么吗？"</li>
+<li>鼓励"还有谁记得这个时间点的其他细节？"</li>
+</ul>
+</li>
+<li>
+<p><strong>信息补充技巧</strong></p>
+<ul>
+<li>主动询问："李四，你当时在做什么？"</li>
+<li>鼓励补充："王五，你觉得还有什么遗漏的吗？"</li>
+<li>验证信息："大家觉得这个时间线准确吗？"</li>
+</ul>
+</li>
+<li>
+<p><strong>打破沉默的方法</strong></p>
+<ul>
+<li>使用"让我们听听不同的声音"</li>
+<li>鼓励"即使是不确定的信息也请说出来"</li>
+<li>设置"每人至少说一句话"的规则</li>
+</ul>
+</li>
+</ul>
+<h4>深度分析阶段（30分钟）- 挖掘根本原因</h4>
+<p><strong>核心要点：</strong></p>
+<ol>
+<li>使用5Why分析法挖掘根本原因</li>
+<li>从技术、流程、管理三个层面分析</li>
+<li>识别系统性因素和潜在风险</li>
+</ol>
+<p><strong>关键技巧：</strong></p>
+<ol>
+<li>分组讨论，激发不同角度的思考</li>
+<li>角色扮演，从不同视角分析问题</li>
+<li>头脑风暴，鼓励创新和突破性想法</li>
+</ol>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>5Why分析法实操</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>主持人："系统为什么会宕机？"</span></span>
+<span class="line"><span>回答："数据库连接超时"</span></span>
+<span class="line"><span>主持人："为什么连接会超时？"</span></span>
+<span class="line"><span>回答："连接池配置不合理"</span></span>
+<span class="line"><span>主持人："为什么配置不合理？"</span></span>
+<span class="line"><span>回答："没有进行压力测试"</span></span>
+<span class="line"><span>主持人："为什么没有压力测试？"</span></span>
+<span class="line"><span>回答："时间不够"</span></span>
+<span class="line"><span>主持人："为什么时间不够？"</span></span>
+<span class="line"><span>回答："项目排期太紧"</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>分组讨论法</strong></p>
+<ul>
+<li>将参会者分为3-4人小组</li>
+<li>每个小组负责一个分析角度（技术/流程/管理）</li>
+<li>5分钟后各组汇报讨论结果</li>
+<li>鼓励组内不同意见的碰撞</li>
+</ul>
+</li>
+<li>
+<p><strong>角色扮演法</strong></p>
+<ul>
+<li>让不同角色的人从自己角度分析问题</li>
+<li>"作为开发，你觉得问题出在哪里？"</li>
+<li>"作为运维，你的看法是什么？"</li>
+<li>"作为测试，你觉得哪里可以改进？"</li>
+</ul>
+</li>
+<li>
+<p><strong>系统性分析框架</strong></p>
+<ul>
+<li>
+<p><strong>技术层面</strong>：</p>
+<ul>
+<li>"这个技术方案的选择是否合理？"</li>
+<li>"有没有更好的技术方案？"</li>
+<li>"监控和报警是否覆盖了关键点？"</li>
+</ul>
+</li>
+<li>
+<p><strong>流程层面</strong>：</p>
+<ul>
+<li>"变更流程是否规范？"</li>
+<li>"审批环节是否到位？"</li>
+<li>"回滚机制是否有效？"</li>
+</ul>
+</li>
+<li>
+<p><strong>管理层面</strong>：</p>
+<ul>
+<li>"资源配置是否合理？"</li>
+<li>"人员技能是否匹配？"</li>
+<li>"时间安排是否充足？"</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>头脑风暴技巧</strong></p>
+<ul>
+<li>使用"不评判"原则，鼓励所有想法</li>
+<li>设置"每人至少提3个想法"的目标</li>
+<li>使用"如果...会怎样？"的假设性问题</li>
+<li>鼓励"看似不相关的想法也要说出来"</li>
+</ul>
+</li>
+</ul>
+<h4>改进讨论阶段（20分钟）- 制定行动计划</h4>
+<p><strong>核心要点：</strong></p>
+<ol>
+<li>制定短期、中期、长期改进措施</li>
+<li>责任人主动提出建议和认领任务</li>
+<li>建立效果评估和跟踪机制</li>
+</ol>
+<p><strong>关键技巧：</strong></p>
+<ol>
+<li>主动认领机制，让责任人自愿承担任务</li>
+<li>创意激发法，鼓励创新和突破性方案</li>
+<li>责任驱动法，基于责任范围提出改进建议</li>
+</ol>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>改进措施分类法</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>短期措施（1周内）：</span></span>
+<span class="line"><span>- 具体任务1（负责人：，截止时间：）</span></span>
+<span class="line"><span>- 具体任务2（负责人：，截止时间：）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>中期措施（1个月内）：</span></span>
+<span class="line"><span>- 具体任务1（负责人：，截止时间：）</span></span>
+<span class="line"><span>- 具体任务2（负责人：，截止时间：）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>长期措施（3个月内）：</span></span>
+<span class="line"><span>- 具体任务1（负责人：，截止时间：）</span></span>
+<span class="line"><span>- 具体任务2（负责人：，截止时间：）</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>主动认领机制</strong></p>
+<ul>
+<li>使用"谁愿意负责这个任务？"</li>
+<li>鼓励"即使不擅长也可以尝试"</li>
+<li>设置"每人至少认领一个任务"的规则</li>
+<li>允许"结对子"共同负责</li>
+</ul>
+</li>
+<li>
+<p><strong>责任驱动建议法</strong></p>
+<ul>
+<li>让每个角色基于自己的责任范围提出改进建议</li>
+<li>"作为开发，你觉得代码质量方面需要哪些改进？"</li>
+<li>"作为测试，你觉得测试流程上有什么可以优化的？"</li>
+<li>"作为运维，你觉得监控和部署方面需要哪些改进？"</li>
+</ul>
+</li>
+<li>
+<p><strong>创意激发法</strong></p>
+<ul>
+<li>使用"如果给你无限资源，你会怎么做？"</li>
+<li>鼓励"天马行空的想法"</li>
+<li>设置"最创新方案"奖励</li>
+<li>允许"看似不切实际"的建议</li>
+</ul>
+</li>
+<li>
+<p><strong>建议收集和整理</strong></p>
+<ul>
+<li>让每个人先写下自己的建议（3分钟）</li>
+<li>轮流分享建议，其他人可以补充</li>
+<li>对相似建议进行合并和优化</li>
+<li>按优先级排序，确定最终方案</li>
+</ul>
+</li>
+<li>
+<p><strong>效果评估标准</strong></p>
+<ul>
+<li>量化指标：响应时间、错误率、用户满意度</li>
+<li>定性指标：团队能力提升、流程优化程度</li>
+<li>验证方法：测试、演练、监控</li>
+</ul>
+</li>
+</ul>
+<h4>总结阶段（10分钟）- 固化成果</h4>
+<p><strong>核心要点：</strong></p>
+<ol>
+<li>总结关键收获和重要发现</li>
+<li>确认行动项和责任人</li>
+<li>建立后续跟踪和反馈机制</li>
+</ol>
+<p><strong>关键技巧：</strong></p>
+<ol>
+<li>轮流总结法，让每个人分享收获</li>
+<li>承诺确认法，确保责任明确</li>
+<li>积极结束，建立团队信心</li>
+</ol>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li>
+<p><strong>总结模板</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>今天的关键收获：</span></span>
+<span class="line"><span>1. 技术层面：[具体发现]</span></span>
+<span class="line"><span>2. 流程层面：[具体发现]</span></span>
+<span class="line"><span>3. 管理层面：[具体发现]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>下一步行动：</span></span>
+<span class="line"><span>1. [具体任务] - 负责人：[姓名] - 截止时间：[日期]</span></span>
+<span class="line"><span>2. [具体任务] - 负责人：[姓名] - 截止时间：[日期]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>下次复盘安排：</span></span>
+<span class="line"><span>- 时间：[具体时间]</span></span>
+<span class="line"><span>- 重点：[检查改进措施落实情况]</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>轮流总结法</strong></p>
+<ul>
+<li>让每个人用一句话总结今天的收获</li>
+<li>使用"今天你最大的收获是什么？"</li>
+<li>鼓励"即使是很小的发现也要说出来"</li>
+<li>记录每个人的关键收获</li>
+</ul>
+</li>
+<li>
+<p><strong>承诺确认法</strong></p>
+<ul>
+<li>让每个人确认自己的行动项</li>
+<li>使用"你能重复一下你的任务吗？"</li>
+<li>鼓励"如果有困难，现在就说出来"</li>
+<li>建立"互相支持"的氛围</li>
+</ul>
+</li>
+<li>
+<p><strong>反馈收集法</strong></p>
+<ul>
+<li>让每个人给这次复盘打分（1-10分）</li>
+<li>收集"下次可以改进的地方"</li>
+<li>鼓励"即使是不满也要说出来"</li>
+<li>承诺"我们会认真考虑每一条建议"</li>
+</ul>
+</li>
+<li>
+<p><strong>结束仪式</strong></p>
+<ul>
+<li>让每个人说一句鼓励的话</li>
+<li>使用"让我们一起努力，避免类似问题"</li>
+<li>建立"我们是一个团队"的认同感</li>
+<li>以积极正面的方式结束会议</li>
+</ul>
+</li>
+</ul>
+<h3>三、 复盘后跟进阶段</h3>
+<h4>行动项跟踪（组织者核心工作）</h4>
+<p><strong>具体方法：</strong></p>
+<ul>
+<li><strong>建立跟踪机制</strong><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>行动项跟踪表：</span></span>
+<span class="line"><span>| 任务 | 负责人 | 截止时间 | 当前状态 | 完成度 | 备注 |</span></span>
+<span class="line"><span>|</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>06.参考资料</title>
+      <link>https://myblog.camscanner.top/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/06.%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.html</link>
+      <guid>https://myblog.camscanner.top/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/06.%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">06.参考资料</source>
+      <description>必看耗子叔 极客时间 必读 12-factors coolshell every-architect-should-study-conway-law https://xie.infoq.cn/article/633911603a048b9f19c81cf29 eventually_consistent.html patterns soa-patterns</description>
+      <category>参考资料</category>
+      <pubDate>Tue, 17 Jun 2025 14:46:44 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://freegeektime.com/100002201/10604/" target="_blank" rel="noopener noreferrer">必看耗子叔</a></li>
+<li><a href="https://freegeektime.com/posts/100046101/" target="_blank" rel="noopener noreferrer">极客时间</a></li>
+<li><a href="https://12factor.net/zh_cn/" target="_blank" rel="noopener noreferrer">必读 12-factors</a></li>
+<li><a href="https://coolshell.cn/articles/11609.html" target="_blank" rel="noopener noreferrer">coolshell</a></li>
+<li><a href="https://www.infoq.cn/article/every-architect-should-study-conway-law" target="_blank" rel="noopener noreferrer">every-architect-should-study-conway-law</a></li>
+<li><a href="https://xie.infoq.cn/article/633911603a048b9f19c81cf29" target="_blank" rel="noopener noreferrer">https://xie.infoq.cn/article/633911603a048b9f19c81cf29</a></li>
+<li><a href="https://www.allthingsdistributed.com/2008/12/eventually_consistent.html" target="_blank" rel="noopener noreferrer">eventually_consistent.html</a></li>
+<li><a href="https://microservices.io/patterns/index.html" target="_blank" rel="noopener noreferrer">patterns</a></li>
+<li><a href="https://patterns.arcitura.com/soa-patterns" target="_blank" rel="noopener noreferrer">soa-patterns</a></li>
+</ul>
+<p>实践类：</p>
+<ul>
+<li>58 同城沈剑：好的架构源于不停地衍变，而非设计</li>
+<li>宜人贷系统架构–高并发下的进化之路</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>04.Models</title>
+      <link>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/00.%E6%A6%82%E5%BF%B5/04.Models.html</link>
+      <guid>https://myblog.camscanner.top/%E5%A4%A7%E6%A8%A1%E5%9E%8BLLM/00.%E6%A6%82%E5%BF%B5/04.Models.html</guid>
+      <source url="https://myblog.camscanner.top/rss.xml">04.Models</source>
+      <description>ViT（Google 图像分类模型） ViT是一种没有 CNN（卷积神经网络）的图像分类模型（Vision Transformer），从图像分类任务中消除了 CNN ViT 将图像拆分为一系列图像补丁嵌入与位置编码混合，并将它们馈送到 Transformer 编码器中。ViT 有一个分类头 （MLP - 多层感知），它产生最终的预测 Img 注意力可视...</description>
+      <category>LLM</category>
+      <category>AI</category>
+      <pubDate>Tue, 17 Jun 2025 14:32:30 GMT</pubDate>
+      <content:encoded><![CDATA[<h3>ViT（Google 图像分类模型）</h3>
+<ul>
+<li>ViT是一种没有 CNN（卷积神经网络）的图像分类模型（Vision Transformer），从图像分类任务中消除了 CNN</li>
+<li>ViT 将图像拆分为一系列图像补丁嵌入与位置编码混合，并将它们馈送到 Transformer 编码器中。ViT 有一个分类头 （MLP - 多层感知），它产生最终的预测
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/3f10b60a7e8a4b98fece3f16f2e3a2f9.png" alt="Img" loading="lazy"></li>
+<li>注意力可视化
+<ul>
+<li>ViT 可以捕捉图像中的主要对象，忽略图像中的噪声</li>
+</ul>
+</li>
+<li>计算复杂度与输入图像大小呈<strong>二次方关系</strong></li>
+</ul>
+<h3>Swin Transformer（Microsoft 图像分类、对象检测、语义分割等视觉任务模型）</h3>
+<ul>
+<li>Shifted windows，它为 Transformer 提供了分层视野</li>
+<li>Swin Transformer 从小尺寸的补丁开始，逐渐将相邻的补丁合并到更深的 Transformer 层中，从而构建分层特征图
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/883ed585110507bf48ceeb0738167620.png" alt="Img" loading="lazy"></li>
+<li>计算复杂度与输入图像大小呈<strong>线性关系</strong>。每个窗口中的补丁数量在任何级别都是相同的。最终，一个本地窗口用 16 个功能补丁覆盖整个映像。</li>
+<li>Swin Transformer 的补丁合并通过连接 4 个 （= 2 x 2） 相邻补丁的特征并应用线性层来减少特征维度，从而减少补丁的数量</li>
+<li>MSA 代表多头自我注意：
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/a286804e56372a6dfbfab218d6e72ee3.png" alt="Img" loading="lazy">
+使用图像色块向左上角的循环移动，然后应用遮罩机制来限制相邻色块内的自我注意。此外，它使用反向循环换档来覆盖其他区域</li>
+</ul>
+<h3>CLIP（OpenAI 对比语言图像预训练模型）</h3>
+<ul>
+<li>CLIP 即对比语言图像预训练（Contrastive Language Image Pre-training）。</li>
+<li>通过对比学习，理解事物之间的差异，将特定的视觉特征与相应的描述性语言相关联，实现从文本生成图像。是从自然语言领域到视觉领域的桥梁，弥合语言和视觉之间差距方面的灵活性和潜力。</li>
+<li>OpenAI 的 CLIP 模型同时训练图像编码器和文本编码器，以准确预测共享嵌入空间内（图像、文本）的正确配对，从而弥合视觉理解和自然语言理解之间的差距
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/d1aae62fffba675c9dfd2a78a5fcbe0e.png" alt="Img" loading="lazy"></li>
+</ul>
+<h2>数据压缩和生成：</h2>
+<h3>VAE（变分自动编码器）</h3>
+<ul>
+<li>VAE 通过识别和学习训练数据集中的隐藏特征并将其用作生成新数据，可以生成新的输出</li>
+<li>有向概率模型，即贝叶斯网络。利用有向无环图 （DAG） 来说明各种随机变量之间的关系和依赖关系。
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/c911644e66069245662d3ef9306df276.png" alt="Img" loading="lazy">
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/de3b3d6189e8e5f7560596c5170f317e.png" alt="Img" loading="lazy"></li>
+<li>说明：
+编码器负责对条件概率分布 P（z|x） 进行建模，因为它采用输入图像 x 并产生潜在表示 z。解码器负责对条件概率分布 P（x|z） 进行建模，因为它采用潜在变量 z 并重建靠近输入图像 x 的图像 x'</li>
+</ul>
+<h2>长文本：</h2>
+<h3>Longformer</h3>
+<ul>
+<li>引入新的注意力机制：
+<ul>
+<li>背景：计算复杂度随序列长度呈二次方增加，这使得处理长序列的成本非常高。我们可以将一个长序列划分为更小的块，但这样我们将失去序列的全局上下文，从而降低语言任务的质量</li>
+<li>Longformer 与序列长度呈线性关系，并且可以处理数千个令牌，这要归功于它的注意力模式。</li>
+<li>Longfomer 不是完全的全局注意力，而是使用不同注意力模式的组合
+<ul>
+<li>
+<p>Sliding Window Attention 推拉窗注意事项
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/faf9abfce6195ac5af65fcf80e8b8c60.png" alt="Img" loading="lazy"></p>
+</li>
+<li>
+<p>Dilated Sliding Window 扩张推拉窗
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/178be1055d3e8738db9928eab11f80fa.png" alt="Img" loading="lazy"></p>
+</li>
+<li>
+<p>Global + Sliding Window 全局+ 滑动窗口
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/dec3a6bdcef0f15c7568955e11bcc45b.png" alt="Img" loading="lazy">
+<img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/c4eda387c3aea582adba642da6a3900f.png" alt="Img" loading="lazy"></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>参考：</h3>
+<p><a href="https://arxiv.org/pdf/2010.11929" target="_blank" rel="noopener noreferrer">ViT</a>
+<a href="https://arxiv.org/pdf/2103.14030" target="_blank" rel="noopener noreferrer">Swin</a>
+<a href="https://arxiv.org/pdf/1312.6114" target="_blank" rel="noopener noreferrer">VAE</a>
+<a href="https://arxiv.org/pdf/2004.05150" target="_blank" rel="noopener noreferrer">Longformer</a></p>
+]]></content:encoded>
+      <enclosure url="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/3f10b60a7e8a4b98fece3f16f2e3a2f9.png" type="image/png"/>
+    </item>
+  </channel>
+</rss>
