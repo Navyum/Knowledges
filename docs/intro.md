@@ -45,6 +45,6 @@ star: false
 - 网站使用 [vuepress](https://theme-hope.vuejs.press/) 生成
 
 ## 赞赏:
-  <div ><img src="https://raw.staticdn.net/Navyum/imgbed/pic/IMG/d55ddcb88afc284ec63d69543fe87e36.jpeg" width="200" height="200" /></div>
+  <div ><img src="https://cdn.jsdelivr.net/gh/Navyum/imgbed@pic/IMG/d55ddcb88afc284ec63d69543fe87e36.jpeg" width="200" height="200" /></div>
 
 
