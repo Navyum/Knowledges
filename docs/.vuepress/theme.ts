@@ -62,7 +62,7 @@ export default hopeTheme(
     // sidebar
     sidebar: sidebar,
     // 侧边栏排序规则
-    // sidebarSorter: ['readme', 'order', 'title'],
+    sidebarSorter: ['order', 'title', 'readme'],
 
     // 页面布局 Frontmatter 配置：https://theme-hope.vuejs.press/zh/config/frontmatter/layout.html#pageinfo
     pageInfo: ["Category", "Tag", "Word", "ReadingTime", "PageView"],
