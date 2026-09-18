@@ -1,0 +1,2 @@
+# Algolia-Crawler-Verif: 2D644E9CB88E409D
+Sitemap: https://myblog.camscanner.top/sitemap.xml
